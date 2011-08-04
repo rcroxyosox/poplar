@@ -152,7 +152,7 @@ and connections to the surrounding forests.</em>"</div>
                           
                           <li style="margin-top: 7px; line-height: 1.0;" ><a href="energystar.php">ENERGY STAR&reg;, and what it means.</a></li>
                           <li style="margin-top: 7px; line-height: 1.0;" ><a href="homes_forSale.php">New Cottage Style floor plans and a DR home on the Creek!</a></li>
-						  <li style="margin-top: 7px; line-height: 1.0;" >Pre-construction specials &ndash; $5,000 toward upgrades.</li>
+						  <li style="margin-top: 7px; line-height: 1.0;" ><a href="http://www.poplarhouse.com/homes_financing.php">Interest Rates are still under 5%…</a></li>
                         </ul>
                       </div>
                     </div>
