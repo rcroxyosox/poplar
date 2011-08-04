@@ -1,0 +1,10 @@
+#content_text td{
+	border: 1px solid black;
+}
+#content_text img{
+	float: right;
+	margin-left: 15px;
+}
+.double {
+	margin: 0px 10px 10px 0px;
+}

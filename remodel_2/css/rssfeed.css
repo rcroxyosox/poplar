@@ -1,0 +1,203 @@
+
+#main {
+	width: 800px; 
+	padding: 0px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto; 	
+	/* opera does not like 'margin:20px auto' */
+	text-align:left; 
+	/* part 2 of 2 centering hack */
+	width: 800px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 800px;
+}
+html>body #main {
+	width: 800px; /* ie5win fudge ends */
+}
+
+/***What's New Box******************/
+#home_right_menu_top {
+	background: url(../images/home_right_menu_top.jpg) top center no-repeat #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	height: 34px;
+}
+#home_right_menu {
+	margin-left:0px; 
+	padding-left:0px;
+	background: url(../images/home_right_menu_bg.jpg) top center repeat-y #FFFFFF;
+}
+#home_right_menu_btm {
+	background: url(../images/home_right_menu_btm.jpg) top center no-repeat #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	height: 6px;
+}
+
+/******** Blog Titles **********/
+#home_right_menu ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 16px;
+	
+}
+
+#home_right_menu ul {
+	list-style-type:none;
+}
+
+#home_right_menu a {
+	margin-left: 0px;
+	margin-right:0px;
+	color: #825282;
+	font-weight: bolder;
+}
+
+#home_right_menu li {
+	text-align: left;
+	margin-left: 16px;
+	margin-right:12px;
+	font-weight: 300;
+	font-size:15px;
+	color:#666666;
+}
+
+#inside_the_box {
+	width: 160px;
+	padding-top: 0px;
+/**	padding-left: 19px;  **/
+	padding-right: 0px;
+}
+
+
+
+#inside_the_box p.more {
+padding: 0px;
+margin: 0px;
+margin-left: 16px;
+font-size: 12px;
+}
+
+
+#inside_the_box a:link {text-decoration: none; color:#666666;}  
+#inside_the_box a:visited {text-decoration: none; color:#666666; }
+#inside_the_box a:hover {text-decoration:none; color:#000000;}
+#inside_the_box a:active {text-decoration: none; color:#666666;}
+
+
+/****************************************************/
+
+#rss_feed	{
+  
+	
+	float: right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height: 1.0px;
+	padding: 0px;
+
+	
+}
+
+#rss_feed a {
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align:right;
+}
+
+#rss_feed img	{
+	width: 16px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align:right;
+
+}
+
+#rss_feed a:link {text-decoration: none; }  
+#rss_feed a:visited {text-decoration: none; }
+#rss_feed a:hover {text-decoration: none; }
+#rss_feed a:active {text-decoration: none; }
+
+/****************************************************/
+
+#home_text {
+	margin-top: 0px;
+	padding-right: 10px;
+	text-align:justify;
+}
+/****************************************************/
+
+#home_right_pic {
+	margin:2px 0px 0px 0px;;
+	padding:0px 6px 0px 0px;
+	text-align: right;
+
+}
+
+#home_right_pic img {
+	margin:0px 0px 0px 5px;;
+	padding: 0px 0px 0px 2px;
+	text-align: center;
+}
+
+#home_right_pic_text {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+
+		
+}
+
+
+#home_right_pic_text a:link {text-decoration: none; color:#666666;}  
+#home_right_pic_text a:visited {text-decoration: none; color:#666666; }
+#home_right_pic_text a:hover {text-decoration: none; color:#000000;}
+#home_right_pic_text a:active {text-decoration: none; color:#666666;}
+
+/************************************************************************************/
+/***********SolidBlockMenu***********************************************************/
+.solidblockmenu{
+margin: 0;
+padding: 0;
+float: left;
+font: bold 13px sans-serif;
+width: 506px;
+margin:0px 0px 0px 0px;;
+margin-bottom: 1em;
+border: 1px solid #625e00;
+border-width: 1px 0;
+overflow:hidden;
+}
+
+.solidblockmenu li{
+display:inline;
+}
+
+.solidblockmenu li a{
+float: left;
+color: black;
+padding: 9px 11px;
+text-decoration: none;
+border: 1px solid black;
+overflow:hidden;
+
+
+}
+
+.solidblockmenu li a:visited{
+color: black;
+}
+
+.solidblockmenu li a:hover, .solidblockmenu li .current{
+color: black;
+/***background: transparent url(media/blockactive.gif) center center repeat-x;  ***/
+}
+
+
+#home_bottom_box a:link {text-decoration: none; color:#666666;}  
+#home_bottom_box a:visited {text-decoration: none; color:#666666; }
+#home_bottom_box a:hover {text-decoration: none; color:#000000;}
+#home_bottom_box a:active {text-decoration: none; color:#666666;}

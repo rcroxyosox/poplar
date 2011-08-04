@@ -1,0 +1,11 @@
+From: [required-email]
+To: [recipient]
+Subject: [subject]
+
+first_name: [%s,required-first_name]
+last_name: [%s,required-last_name]
+
+day phone: [%s,dphone]
+email: [%s,required-email]
+
+comments: [%s,comments]

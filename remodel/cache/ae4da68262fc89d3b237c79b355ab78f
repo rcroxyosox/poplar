@@ -1,0 +1,383 @@
+O:9:"MagpieRSS":23:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:10:{i:0;a:13:{s:5:"title";s:20:"Towards OpenFlow 0.9";s:4:"link";s:59:"http://feedproxy.google.com/~r/OpenFlowBlog/~3/E5yRnhMKZbg/";s:8:"comments";s:68:"http://feedproxy.google.com/~r/OpenFlowBlog/~3/E5yRnhMKZbg/#comments";s:7:"pubdate";s:31:"Sun, 03 May 2009 19:50:37 +0000";s:2:"dc";a:1:{s:7:"creator";s:6:"appenz";}s:8:"category";s:23:"0.9OpenFlow Blogrelease";s:4:"guid";s:39:"http://www.openflowswitch.org/wp/?p=640";s:11:"description";s:305:"As anyone following the openflow-spec mailing list will have noticed, we are in the process of narrowing down the feature set for OpenFlow 0.9. The latest iteration of the feature list is now on the OpenFlow 0.9 wiki page. This is not final yet, and will change. Also none of this is in the publicly [...]";s:7:"content";a:1:{s:7:"encoded";s:926:"<p>As anyone following the <a href="https://mailman.stanford.edu/mailman/listinfo/openflow-spec">openflow-spec</a> mailing list will have noticed, we are in the process of narrowing down the feature set for OpenFlow 0.9. The latest iteration of the feature list is now on the <a href="http://www.openflowswitch.org/wk/index.php/OpenFlow_v0.9">OpenFlow 0.9 wiki page</a>. This is <strong>not final</strong> yet, and <strong>will</strong> change. Also none of this is in the publicly available reference implementation as of today.</p>
+<p>Over the next weeks we will add these features to the reference implementation as well as controllers. We will also talk to some of our partners to understand the implications for their implementations. This will likely result in changes. If you have any feedback, please joint the discussion on <a href="https://mailman.stanford.edu/mailman/listinfo/openflow-spec">openflow-spec</a>.</p>
+";}s:3:"wfw";a:1:{s:10:"commentrss";s:56:"http://cleanslate.stanford.edu/wordpress/?feed=rss2&p=42";}s:7:"summary";s:305:"As anyone following the openflow-spec mailing list will have noticed, we are in the process of narrowing down the feature set for OpenFlow 0.9. The latest iteration of the feature list is now on the OpenFlow 0.9 wiki page. This is not final yet, and will change. Also none of this is in the publicly [...]";s:12:"atom_content";s:926:"<p>As anyone following the <a href="https://mailman.stanford.edu/mailman/listinfo/openflow-spec">openflow-spec</a> mailing list will have noticed, we are in the process of narrowing down the feature set for OpenFlow 0.9. The latest iteration of the feature list is now on the <a href="http://www.openflowswitch.org/wk/index.php/OpenFlow_v0.9">OpenFlow 0.9 wiki page</a>. This is <strong>not final</strong> yet, and <strong>will</strong> change. Also none of this is in the publicly available reference implementation as of today.</p>
+<p>Over the next weeks we will add these features to the reference implementation as well as controllers. We will also talk to some of our partners to understand the implications for their implementations. This will likely result in changes. If you have any feedback, please joint the discussion on <a href="https://mailman.stanford.edu/mailman/listinfo/openflow-spec">openflow-spec</a>.</p>
+";s:14:"date_timestamp";i:1241380237;}i:1;a:13:{s:5:"title";s:45:"liboftrace - openflow debugging tool released";s:4:"link";s:59:"http://feedproxy.google.com/~r/OpenFlowBlog/~3/WV-fQVijk08/";s:8:"comments";s:68:"http://feedproxy.google.com/~r/OpenFlowBlog/~3/WV-fQVijk08/#comments";s:7:"pubdate";s:31:"Tue, 14 Apr 2009 21:19:14 +0000";s:2:"dc";a:1:{s:7:"creator";s:6:"capveg";}s:8:"category";s:13:"OpenFlow Blog";s:4:"guid";s:39:"http://www.openflowswitch.org/wp/?p=633";s:11:"description";s:359:"Yesterday, I announced a new OpenFlow debugging tool: liboftrace.  oftrace is a library for parsing and analyzing openflow messages (as defined in openflow.h) from a network dump, i.e., from tcpdump or wireshark.  I imagine (hope?  that people will find their own uses for this, but the two initial motivating applications for this library are:
+ofstats: [...]";s:7:"content";a:1:{s:7:"encoded";s:1465:"<p>Yesterday, I announced a new OpenFlow debugging tool: liboftrace.  <span class="il">oftrace</span> is a library for parsing and analyzing openflow messages (as defined in openflow.h) from a network dump, i.e., from tcpdump or wireshark.  I imagine (hope? <img src='http://www.openflowswitch.org/wp/wp-includes/images/smilies/icon_wink.gif' alt=';-)' class='wp-smiley' /> that people will find their own uses for this, but the two initial motivating applications for this library are:</p>
+<p>ofstats: a program which calculates the controller processing delay, i.e., the difference in time between a packet_in message and the corresponding packet_out or flow_mod message.</p>
+<p>and</p>
+<p>ofdump: a program that simply lists openflow message types with timestamps by switch/controller pair.</p>
+<p>liboftrace is a C library with a swig (<a href="http://www.swig.org/" >www.swig.org</a>) wrapper that allows it to be used from your favorite scripting language.  Both ofstats and ofdump applications have been ported to python (pyofdump.py and pyofstats.py) and are included in the tarball as examples.</p>
+<p>More description and the actual code are available at:</p>
+<p><a href="../../wk/index.php/Liboftrace" >http://www.openflowswitch.org/wk/index.php/Liboftrace</a></p>
+<p>If (when) you find bugs, please post them to our bug tracking system at :</p>
+<p><a href="../../bugs/oftrace" >http://www.openflowswitch.org/bugs/<span class="il">oftrace</span></a></p>
+";}s:3:"wfw";a:1:{s:10:"commentrss";s:56:"http://cleanslate.stanford.edu/wordpress/?feed=rss2&p=38";}s:7:"summary";s:359:"Yesterday, I announced a new OpenFlow debugging tool: liboftrace.  oftrace is a library for parsing and analyzing openflow messages (as defined in openflow.h) from a network dump, i.e., from tcpdump or wireshark.  I imagine (hope?  that people will find their own uses for this, but the two initial motivating applications for this library are:
+ofstats: [...]";s:12:"atom_content";s:1465:"<p>Yesterday, I announced a new OpenFlow debugging tool: liboftrace.  <span class="il">oftrace</span> is a library for parsing and analyzing openflow messages (as defined in openflow.h) from a network dump, i.e., from tcpdump or wireshark.  I imagine (hope? <img src='http://www.openflowswitch.org/wp/wp-includes/images/smilies/icon_wink.gif' alt=';-)' class='wp-smiley' /> that people will find their own uses for this, but the two initial motivating applications for this library are:</p>
+<p>ofstats: a program which calculates the controller processing delay, i.e., the difference in time between a packet_in message and the corresponding packet_out or flow_mod message.</p>
+<p>and</p>
+<p>ofdump: a program that simply lists openflow message types with timestamps by switch/controller pair.</p>
+<p>liboftrace is a C library with a swig (<a href="http://www.swig.org/" >www.swig.org</a>) wrapper that allows it to be used from your favorite scripting language.  Both ofstats and ofdump applications have been ported to python (pyofdump.py and pyofstats.py) and are included in the tarball as examples.</p>
+<p>More description and the actual code are available at:</p>
+<p><a href="../../wk/index.php/Liboftrace" >http://www.openflowswitch.org/wk/index.php/Liboftrace</a></p>
+<p>If (when) you find bugs, please post them to our bug tracking system at :</p>
+<p><a href="../../bugs/oftrace" >http://www.openflowswitch.org/bugs/<span class="il">oftrace</span></a></p>
+";s:14:"date_timestamp";i:1239743954;}i:2;a:13:{s:5:"title";s:7:"AirFPGA";s:4:"link";s:37:"http://netfpga.org/wordpress/airfpga/";s:8:"comments";s:46:"http://netfpga.org/wordpress/airfpga/#comments";s:7:"pubdate";s:31:"Fri, 10 Apr 2009 18:22:19 +0000";s:2:"dc";a:1:{s:7:"creator";s:6:"hyzeng";}s:8:"category";s:33:"ApplicationsProjects: Contributed";s:4:"guid";s:35:"http://netfpga.org/wordpress/?p=332";s:11:"description";s:462:"AirFPGA, a scalable, high-speed, remote controlled software defined radio (SDR) platform
+
+Signal processing over Ethernet
+Server-Client design with one data acquisition device and multiple clients
+Monitoring commercial AM radio station with Linrad and SDR-IQ!
+
+Watch Demo!
+
+The video demonstrates the system?s verification using a signal generator. It also describes an application consisting of monitoring a commercial AM station.
+What is AirFPGA?
+AirFPGA [...]";s:7:"content";a:1:{s:7:"encoded";s:2854:"<p>AirFPGA, a scalable, high-speed, remote controlled software defined radio (SDR) platform</p>
+<ul>
+<li>Signal processing over Ethernet</li>
+<li>Server-Client design with one data acquisition device and multiple clients</li>
+<li>Monitoring commercial AM radio station with <a href="http://www.nitehawk.com/sm5bsz/linuxdsp/linrad.htm">Linrad</a> and <a href="http://www.rfspace.com/SDR-IQ.html">SDR-IQ</a>!</li>
+</ul>
+<p><strong>Watch Demo!</strong></p>
+<p><object width="640" height="360" data="http://cdn.smugmug.com/ria/ShizVidz-2008120101.swf" type="application/x-shockwave-flash"><param name="allowFullScreen" value="true" /><param name="flashVars" value="s=ZT0xJmk9NTA5NTM0OTMzJms9bnZNYUQmYT03ODYwMzM1X3FwdWMyJnU9SmFuZFI=" /><param name="src" value="http://cdn.smugmug.com/ria/ShizVidz-2008120101.swf" /><param name="flashvars" value="s=ZT0xJmk9NTA5NTM0OTMzJms9bnZNYUQmYT03ODYwMzM1X3FwdWMyJnU9SmFuZFI=" /><param name="allowfullscreen" value="true" /></object></p>
+<p>The video demonstrates the system?s verification using a signal generator. It also describes an application consisting of monitoring a commercial AM station.</p>
+<p><strong>What is AirFPGA?</strong></p>
+<p>AirFPGA is a scalable, high-speed, remote controlled software defined radio (SDR) platform implemented using a NetFPGA board, a digitizer and a High Frequency (HF) receiver (integrated into a single device).</p>
+<p>AirFPGA is built on the NetFPGA that allows baseband recording and playback of wireless signals, as well as distributed processing. It captures radio signals, processes them in reconfigurable hardware, and sends the data via high speed Gigabit Ethernet to PCs or other NetFPGAs for additional computations. The system architecture, data path, testbed implementation and test results can be found in the following sections.</p>
+<p><strong>Here is more Information</strong></p>
+<ul>
+<li><a href="http://www.stanford.edu/~hyzeng/airfpga.pdf"><strong>Project Summary </strong></a>
+<ul>
+<li>8-page paper submitted to IEEE FPL09</li>
+</ul>
+</li>
+<li><a href="http://netfpga.org/netfpgawiki/index.php/Projects:AirFPGA"><strong>Project Details</strong></a>
+<ul>
+<li>Wiki pages with operational details</li>
+</ul>
+</li>
+<li><strong>Download package</strong>
+<ul>
+<li>Will be released soon!</li>
+</ul>
+</li>
+<li><strong><a href="http://jandr.smugmug.com/gallery/7860335_qpuc2/1/509534933_nvMaD">Other Photos and High-Def Video</a></strong></li>
+</ul>
+<p><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><br />
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2927582-5");
+pageTracker._trackPageview();
+} catch(err) {}</script></p>
+";}s:3:"wfw";a:1:{s:10:"commentrss";s:56:"http://cleanslate.stanford.edu/wordpress/?feed=rss2&p=36";}s:7:"summary";s:462:"AirFPGA, a scalable, high-speed, remote controlled software defined radio (SDR) platform
+
+Signal processing over Ethernet
+Server-Client design with one data acquisition device and multiple clients
+Monitoring commercial AM radio station with Linrad and SDR-IQ!
+
+Watch Demo!
+
+The video demonstrates the system?s verification using a signal generator. It also describes an application consisting of monitoring a commercial AM station.
+What is AirFPGA?
+AirFPGA [...]";s:12:"atom_content";s:2854:"<p>AirFPGA, a scalable, high-speed, remote controlled software defined radio (SDR) platform</p>
+<ul>
+<li>Signal processing over Ethernet</li>
+<li>Server-Client design with one data acquisition device and multiple clients</li>
+<li>Monitoring commercial AM radio station with <a href="http://www.nitehawk.com/sm5bsz/linuxdsp/linrad.htm">Linrad</a> and <a href="http://www.rfspace.com/SDR-IQ.html">SDR-IQ</a>!</li>
+</ul>
+<p><strong>Watch Demo!</strong></p>
+<p><object width="640" height="360" data="http://cdn.smugmug.com/ria/ShizVidz-2008120101.swf" type="application/x-shockwave-flash"><param name="allowFullScreen" value="true" /><param name="flashVars" value="s=ZT0xJmk9NTA5NTM0OTMzJms9bnZNYUQmYT03ODYwMzM1X3FwdWMyJnU9SmFuZFI=" /><param name="src" value="http://cdn.smugmug.com/ria/ShizVidz-2008120101.swf" /><param name="flashvars" value="s=ZT0xJmk9NTA5NTM0OTMzJms9bnZNYUQmYT03ODYwMzM1X3FwdWMyJnU9SmFuZFI=" /><param name="allowfullscreen" value="true" /></object></p>
+<p>The video demonstrates the system?s verification using a signal generator. It also describes an application consisting of monitoring a commercial AM station.</p>
+<p><strong>What is AirFPGA?</strong></p>
+<p>AirFPGA is a scalable, high-speed, remote controlled software defined radio (SDR) platform implemented using a NetFPGA board, a digitizer and a High Frequency (HF) receiver (integrated into a single device).</p>
+<p>AirFPGA is built on the NetFPGA that allows baseband recording and playback of wireless signals, as well as distributed processing. It captures radio signals, processes them in reconfigurable hardware, and sends the data via high speed Gigabit Ethernet to PCs or other NetFPGAs for additional computations. The system architecture, data path, testbed implementation and test results can be found in the following sections.</p>
+<p><strong>Here is more Information</strong></p>
+<ul>
+<li><a href="http://www.stanford.edu/~hyzeng/airfpga.pdf"><strong>Project Summary </strong></a>
+<ul>
+<li>8-page paper submitted to IEEE FPL09</li>
+</ul>
+</li>
+<li><a href="http://netfpga.org/netfpgawiki/index.php/Projects:AirFPGA"><strong>Project Details</strong></a>
+<ul>
+<li>Wiki pages with operational details</li>
+</ul>
+</li>
+<li><strong>Download package</strong>
+<ul>
+<li>Will be released soon!</li>
+</ul>
+</li>
+<li><strong><a href="http://jandr.smugmug.com/gallery/7860335_qpuc2/1/509534933_nvMaD">Other Photos and High-Def Video</a></strong></li>
+</ul>
+<p><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><br />
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2927582-5");
+pageTracker._trackPageview();
+} catch(err) {}</script></p>
+";s:14:"date_timestamp";i:1239387739;}i:3;a:13:{s:5:"title";s:19:"Welcome Dan Talayco";s:4:"link";s:59:"http://feedproxy.google.com/~r/OpenFlowBlog/~3/dCh4cC3vNcY/";s:8:"comments";s:68:"http://feedproxy.google.com/~r/OpenFlowBlog/~3/dCh4cC3vNcY/#comments";s:7:"pubdate";s:31:"Wed, 08 Apr 2009 22:27:30 +0000";s:2:"dc";a:1:{s:7:"creator";s:6:"appenz";}s:8:"category";s:13:"OpenFlow Blog";s:4:"guid";s:39:"http://www.openflowswitch.org/wp/?p=586";s:11:"description";s:358:"
+Up to now, the OpenFlow group at Stanford has provided reference implementations of OpenFlow for two different platforms, the software switch (which runs on any PC with several network interfaces) and the NetFPGA implementation. The challenge with this is that both of these implementations have a low total bandwidht (&#60; 10 Gb/s) and typically low [...]";s:7:"content";a:1:{s:7:"encoded";s:1730:"<div id="attachment_587" class="wp-caption alignright" ><a href="http://www.openflowswitch.org/wp/wp-content/uploads/2009/04/dantalayco-1.jpg"><img class="size-full wp-image-587" title="dantalayco-1" src="http://www.openflowswitch.org/wp/wp-content/uploads/2009/04/dantalayco-1.jpg" alt="Dan Talayco" width="203" height="271" /></a><p class="wp-caption-text">Dan Talayco </p></div>
+<p>Up to now, the OpenFlow group at Stanford has provided reference implementations of OpenFlow for two different platforms, the <a href="http://www.openflowswitch.org/wk/index.php/Debian_Install">software switch</a> (which runs on any PC with several network interfaces) and the <a href="http://www.openflowswitch.org/wk/index.php/CentOS_NetFPGA_Install">NetFPGA</a> implementation. The challenge with this is that both of these implementations have a low total bandwidht (&lt; 10 Gb/s) and typically low fan out (&lt; 10 ports). With these limitations, some future OpenFlow features such as QoS are hard to test in a realistic way.</p>
+<p>To address this problem, we have recently started an effort to develop an OpenFlow reference implementation that runs on a hardware switch. Our goal here is not to compete with the production quality implementations from NEC and HP, but to create a research platform for ourselves and other universities to test out experimental features.</p>
+<p>The person spearheading this effort is our newest team member, <a href="http://iguanavonnegut.net/">Dan Talayco</a>. Dan has a background in developing software for switches from his work at Broadcom, and in an earlier life was a faculty at Franklin and Marshall college. Expect to see more from him on this blog in the next few months.</p>
+<p>Welcome Dan!</p>
+";}s:3:"wfw";a:1:{s:10:"commentrss";s:56:"http://cleanslate.stanford.edu/wordpress/?feed=rss2&p=33";}s:7:"summary";s:358:"
+Up to now, the OpenFlow group at Stanford has provided reference implementations of OpenFlow for two different platforms, the software switch (which runs on any PC with several network interfaces) and the NetFPGA implementation. The challenge with this is that both of these implementations have a low total bandwidht (&#60; 10 Gb/s) and typically low [...]";s:12:"atom_content";s:1730:"<div id="attachment_587" class="wp-caption alignright" ><a href="http://www.openflowswitch.org/wp/wp-content/uploads/2009/04/dantalayco-1.jpg"><img class="size-full wp-image-587" title="dantalayco-1" src="http://www.openflowswitch.org/wp/wp-content/uploads/2009/04/dantalayco-1.jpg" alt="Dan Talayco" width="203" height="271" /></a><p class="wp-caption-text">Dan Talayco </p></div>
+<p>Up to now, the OpenFlow group at Stanford has provided reference implementations of OpenFlow for two different platforms, the <a href="http://www.openflowswitch.org/wk/index.php/Debian_Install">software switch</a> (which runs on any PC with several network interfaces) and the <a href="http://www.openflowswitch.org/wk/index.php/CentOS_NetFPGA_Install">NetFPGA</a> implementation. The challenge with this is that both of these implementations have a low total bandwidht (&lt; 10 Gb/s) and typically low fan out (&lt; 10 ports). With these limitations, some future OpenFlow features such as QoS are hard to test in a realistic way.</p>
+<p>To address this problem, we have recently started an effort to develop an OpenFlow reference implementation that runs on a hardware switch. Our goal here is not to compete with the production quality implementations from NEC and HP, but to create a research platform for ourselves and other universities to test out experimental features.</p>
+<p>The person spearheading this effort is our newest team member, <a href="http://iguanavonnegut.net/">Dan Talayco</a>. Dan has a background in developing software for switches from his work at Broadcom, and in an earlier life was a faculty at Franklin and Marshall college. Expect to see more from him on this blog in the next few months.</p>
+<p>Welcome Dan!</p>
+";s:14:"date_timestamp";i:1239229650;}i:4;a:13:{s:5:"title";s:25:"Welcome Mikio and Tatsuya";s:4:"link";s:59:"http://feedproxy.google.com/~r/OpenFlowBlog/~3/Wcf9ItgY8sE/";s:8:"comments";s:68:"http://feedproxy.google.com/~r/OpenFlowBlog/~3/Wcf9ItgY8sE/#comments";s:7:"pubdate";s:31:"Mon, 02 Mar 2009 17:00:37 +0000";s:2:"dc";a:1:{s:7:"creator";s:6:"appenz";}s:8:"category";s:39:"OpenFlow Blogclean slate labnecopenflow";s:4:"guid";s:39:"http://www.openflowswitch.org/wp/?p=572";s:11:"description";s:336:"
+The OpenFlow team at Stanford has two new members. We are extremely happy to welcome Mikio Hara and Tatsuya Yabe from NEC Japan that will spend the next two years in the Clean Slate lab working on OpenFlow and the next generation networking infrastructure.
+Mikio and Tatsuya already joined late last year, and Tatusya has already [...]";s:7:"content";a:1:{s:7:"encoded";s:1124:"<div class="wp-caption alignright" ><a href="http://openflow.smugmug.com/gallery/7468819_3XBXY/1/481867680_bjAL5"><img src="http://openflow.smugmug.com/photos/481867680_bjAL5-S.jpg" alt="Tatsuya Yabe" width="200" height="300" /></a><p class="wp-caption-text">Tatsuya Yabe</p></div>
+<div class="wp-caption alignright" ><a href="http://openflow.smugmug.com/gallery/7468819_3XBXY/1/481867680_bjAL5"><img src="http://openflow.smugmug.com/photos/481867675_4tbcH-S.jpg" alt="Mikio Hara" width="200" height="300" /></a><p class="wp-caption-text">Mikio Hara</p></div>
+<p>The OpenFlow team at Stanford has two new members. We are extremely happy to welcome Mikio Hara and Tatsuya Yabe from NEC Japan that will spend the next two years in the Clean Slate lab working on OpenFlow and the next generation networking infrastructure.</p>
+<p>Mikio and Tatsuya already joined late last year, and Tatusya has already taken over the NetFPGA port of OpenFlow and recently led the release of  the OpenFlow 0.8.9(r2).</p>
+<p>Mikio is taking over the next release of the OpenFlow software reference implementation. Welcome Mikio and Tatsuya!</p>
+";}s:3:"wfw";a:1:{s:10:"commentrss";s:55:"http://cleanslate.stanford.edu/wordpress/?feed=rss2&p=9";}s:7:"summary";s:336:"
+The OpenFlow team at Stanford has two new members. We are extremely happy to welcome Mikio Hara and Tatsuya Yabe from NEC Japan that will spend the next two years in the Clean Slate lab working on OpenFlow and the next generation networking infrastructure.
+Mikio and Tatsuya already joined late last year, and Tatusya has already [...]";s:12:"atom_content";s:1124:"<div class="wp-caption alignright" ><a href="http://openflow.smugmug.com/gallery/7468819_3XBXY/1/481867680_bjAL5"><img src="http://openflow.smugmug.com/photos/481867680_bjAL5-S.jpg" alt="Tatsuya Yabe" width="200" height="300" /></a><p class="wp-caption-text">Tatsuya Yabe</p></div>
+<div class="wp-caption alignright" ><a href="http://openflow.smugmug.com/gallery/7468819_3XBXY/1/481867680_bjAL5"><img src="http://openflow.smugmug.com/photos/481867675_4tbcH-S.jpg" alt="Mikio Hara" width="200" height="300" /></a><p class="wp-caption-text">Mikio Hara</p></div>
+<p>The OpenFlow team at Stanford has two new members. We are extremely happy to welcome Mikio Hara and Tatsuya Yabe from NEC Japan that will spend the next two years in the Clean Slate lab working on OpenFlow and the next generation networking infrastructure.</p>
+<p>Mikio and Tatsuya already joined late last year, and Tatusya has already taken over the NetFPGA port of OpenFlow and recently led the release of  the OpenFlow 0.8.9(r2).</p>
+<p>Mikio is taking over the next release of the OpenFlow software reference implementation. Welcome Mikio and Tatsuya!</p>
+";s:14:"date_timestamp";i:1236013237;}i:5;a:13:{s:5:"title";s:45:"OpenFlow written up in MIT Tech Review Top 10";s:4:"link";s:59:"http://feedproxy.google.com/~r/OpenFlowBlog/~3/yXKj0qzhSCg/";s:8:"comments";s:68:"http://feedproxy.google.com/~r/OpenFlowBlog/~3/yXKj0qzhSCg/#comments";s:7:"pubdate";s:31:"Wed, 25 Feb 2009 07:43:05 +0000";s:2:"dc";a:1:{s:7:"creator";s:6:"capveg";}s:8:"category";s:13:"OpenFlow Blog";s:4:"guid";s:39:"http://www.openflowswitch.org/wp/?p=570";s:11:"description";s:308:"The prestigious MIT Technology Review picked OpenFlow as one of the top 10 emerging technologies &#8220;with the potential to change lives around the world&#8221;.  More good press for our project!
+Read the full article in the March/April edition or online at:
+http://www.technologyreview.com/biotech/22120/
+";s:7:"content";a:1:{s:7:"encoded";s:391:"<p>The prestigious MIT Technology Review picked OpenFlow as one of the top 10 emerging technologies &#8220;with the potential to change lives around the world&#8221;.  More good press for our project!</p>
+<p>Read the full article in the March/April edition or online at:</p>
+<p><a href="http://www.technologyreview.com/biotech/22120/" >http://www.technologyreview.com/biotech/22120/</a></p>
+";}s:3:"wfw";a:1:{s:10:"commentrss";s:56:"http://cleanslate.stanford.edu/wordpress/?feed=rss2&p=10";}s:7:"summary";s:308:"The prestigious MIT Technology Review picked OpenFlow as one of the top 10 emerging technologies &#8220;with the potential to change lives around the world&#8221;.  More good press for our project!
+Read the full article in the March/April edition or online at:
+http://www.technologyreview.com/biotech/22120/
+";s:12:"atom_content";s:391:"<p>The prestigious MIT Technology Review picked OpenFlow as one of the top 10 emerging technologies &#8220;with the potential to change lives around the world&#8221;.  More good press for our project!</p>
+<p>Read the full article in the March/April edition or online at:</p>
+<p><a href="http://www.technologyreview.com/biotech/22120/" >http://www.technologyreview.com/biotech/22120/</a></p>
+";s:14:"date_timestamp";i:1235547785;}i:6;a:13:{s:5:"title";s:24:"Version 0.8.9r2 Released";s:4:"link";s:59:"http://feedproxy.google.com/~r/OpenFlowBlog/~3/pK2qJf1MSvg/";s:8:"comments";s:68:"http://feedproxy.google.com/~r/OpenFlowBlog/~3/pK2qJf1MSvg/#comments";s:7:"pubdate";s:31:"Thu, 05 Feb 2009 03:07:39 +0000";s:2:"dc";a:1:{s:7:"creator";s:5:"Tyabe";}s:8:"category";s:13:"OpenFlow Blog";s:4:"guid";s:39:"http://www.openflowswitch.org/wp/?p=568";s:11:"description";s:270:"OpenFlow Reference System 0.8.9r2 has been released today.
+It includes NetFPGA Hardware Table support, regression tests addition/modification and several bug fixes.
+Please find the package on the Downloads page.
+For more information, please check out the release notes.
+";s:7:"content";a:1:{s:7:"encoded";s:443:"<p>OpenFlow Reference System 0.8.9r2 has been released today.</p>
+<p>It includes NetFPGA Hardware Table support, regression tests addition/modification and several bug fixes.</p>
+<p>Please find the package on the <a href="http://www.openflowswitch.org/wp/downloads/">Downloads page</a>.<br />
+For more information, please check out the <a href="http://www.openflowswitch.org/wk/index.php/OpenFlow_0.8.9r2_release_notes">release notes</a>.</p>
+";}s:3:"wfw";a:1:{s:10:"commentrss";s:56:"http://cleanslate.stanford.edu/wordpress/?feed=rss2&p=11";}s:7:"summary";s:270:"OpenFlow Reference System 0.8.9r2 has been released today.
+It includes NetFPGA Hardware Table support, regression tests addition/modification and several bug fixes.
+Please find the package on the Downloads page.
+For more information, please check out the release notes.
+";s:12:"atom_content";s:443:"<p>OpenFlow Reference System 0.8.9r2 has been released today.</p>
+<p>It includes NetFPGA Hardware Table support, regression tests addition/modification and several bug fixes.</p>
+<p>Please find the package on the <a href="http://www.openflowswitch.org/wp/downloads/">Downloads page</a>.<br />
+For more information, please check out the <a href="http://www.openflowswitch.org/wk/index.php/OpenFlow_0.8.9r2_release_notes">release notes</a>.</p>
+";s:14:"date_timestamp";i:1233803259;}i:7;a:13:{s:5:"title";s:27:"NetFPGA Developers Workshop";s:4:"link";s:57:"http://netfpga.org/wordpress/netfpga-developers-workshop/";s:8:"comments";s:66:"http://netfpga.org/wordpress/netfpga-developers-workshop/#comments";s:7:"pubdate";s:31:"Mon, 02 Feb 2009 19:59:19 +0000";s:2:"dc";a:1:{s:7:"creator";s:8:"Lockwood";}s:8:"category";s:32:"ConferencesNew ProjectNewsPapers";s:4:"guid";s:35:"http://netfpga.org/wordpress/?p=269";s:11:"description";s:312:"You already know that the NetFPGA implements a Gigabit NIC, A hardware-accelerated Internet router, a traffic generator, and an OpenFlow switch, and more.  What else can it do?  We invite you, our NetFPGA Developers, to join us at Stanford to show off your newest project.   Submit a paper to describe your [...]";s:7:"content";a:1:{s:7:"encoded";s:2402:"<p>You already know that the NetFPGA implements a Gigabit NIC, A hardware-accelerated Internet router, a traffic generator, and an OpenFlow switch, and more.  What else can it do?  We invite you, our NetFPGA Developers, to join us at Stanford to show off your newest project.   Submit a paper to describe your project and come to Stanford in August to demonstrate your work!</p>
+<p><img src="http://NetFPGA.org/images/DevWorkshop.gif" alt="" /></p>
+<ul>
+<li>Dates:
+<ul>
+<li>Papers Due: April 27, 2009</li>
+<li>Workshop:  August 13-14, 2009</li>
+</ul>
+</li>
+<li>Location
+<ul>
+<li>Stanford University
+    </ul>
+<li>Step 1: Submit a paper that describes your project
+<ul>
+<li>Paper Format: ACM SIGCOMM-style <br />
+              .. But shorter &#8212; just 4-8 pages</p>
+<li>Sample paper (for use as a template):<br />
+          Packet Generator for the NetFPGA</p>
+<ul>
+<li><a href="http://netfpga.org/documents/fccm-packet_generator-09-7.pdf">Four-page .PDF sample document</a>
+<li><a href="http://netfpga.org/beta/distributions/2009-FCCM-Packet_Generator_release.tar.gz">Full LaTeX source (.tar.gz) format</a>
+      </ul>
+<li>See <a href="http://NetFPGA.org/php/publications.php">Publications Page</a> <br />
+    .. for more directions &#038; examples</li>
+<li><a href="http://NetFPGA.org/HotCRP/">On-line Paper Submission</a>
+<ul>
+<li>Register your paper now
+   </ul>
+</ul>
+<li>Step 2: Contribute your Project
+<ul>
+<li><a href="http://netfpga.org/documents/How_to_Contribute_NetFPGA_Project-MSE09.pdf">Methodology to contribute a NetFPGA project</a>
+<li>Steps to <a href="http://netfpga.org/wordpress/?p=114">contribute project</a></li>
+</ul>
+</li>
+<li>Program Chairs
+<ul>
+<li><a href="http://stanford.edu/~jwlockwd/">John W. Lockwood</a>: Stanford University</li>
+<li><a href="http://www.cl.cam.ac.uk/~awm22/">Andrew W. Moore</a>: Cambridge University</li>
+</ul>
+</li>
+<li>Program Committee
+<ul>
+<li>Satnam Singh, Microsoft Research Cambridge</li>
+<li>David Miller, Cambridge University Computer Laboratory</li>
+<li>Gordon Brebner, Xilinx</li>
+<li>Martin ?ádník, Brno University of Technology</li>
+<li>Glen Gibb: Stanford University</li>
+<li>Adam Covington: Stanford University</li>
+<li>David Greaves: Cambridge University</li>
+<li>Eric Keller: Princeton University</li>
+</ul>
+<li><a href="http://NetFPGA.org//NetFPGA-DevConf-2009.pdf">Single-page Call for Papers posting</a></li>
+<ul>
+<br />
+<br />
+";}s:3:"wfw";a:1:{s:10:"commentrss";s:56:"http://cleanslate.stanford.edu/wordpress/?feed=rss2&p=19";}s:7:"summary";s:312:"You already know that the NetFPGA implements a Gigabit NIC, A hardware-accelerated Internet router, a traffic generator, and an OpenFlow switch, and more.  What else can it do?  We invite you, our NetFPGA Developers, to join us at Stanford to show off your newest project.   Submit a paper to describe your [...]";s:12:"atom_content";s:2402:"<p>You already know that the NetFPGA implements a Gigabit NIC, A hardware-accelerated Internet router, a traffic generator, and an OpenFlow switch, and more.  What else can it do?  We invite you, our NetFPGA Developers, to join us at Stanford to show off your newest project.   Submit a paper to describe your project and come to Stanford in August to demonstrate your work!</p>
+<p><img src="http://NetFPGA.org/images/DevWorkshop.gif" alt="" /></p>
+<ul>
+<li>Dates:
+<ul>
+<li>Papers Due: April 27, 2009</li>
+<li>Workshop:  August 13-14, 2009</li>
+</ul>
+</li>
+<li>Location
+<ul>
+<li>Stanford University
+    </ul>
+<li>Step 1: Submit a paper that describes your project
+<ul>
+<li>Paper Format: ACM SIGCOMM-style <br />
+              .. But shorter &#8212; just 4-8 pages</p>
+<li>Sample paper (for use as a template):<br />
+          Packet Generator for the NetFPGA</p>
+<ul>
+<li><a href="http://netfpga.org/documents/fccm-packet_generator-09-7.pdf">Four-page .PDF sample document</a>
+<li><a href="http://netfpga.org/beta/distributions/2009-FCCM-Packet_Generator_release.tar.gz">Full LaTeX source (.tar.gz) format</a>
+      </ul>
+<li>See <a href="http://NetFPGA.org/php/publications.php">Publications Page</a> <br />
+    .. for more directions &#038; examples</li>
+<li><a href="http://NetFPGA.org/HotCRP/">On-line Paper Submission</a>
+<ul>
+<li>Register your paper now
+   </ul>
+</ul>
+<li>Step 2: Contribute your Project
+<ul>
+<li><a href="http://netfpga.org/documents/How_to_Contribute_NetFPGA_Project-MSE09.pdf">Methodology to contribute a NetFPGA project</a>
+<li>Steps to <a href="http://netfpga.org/wordpress/?p=114">contribute project</a></li>
+</ul>
+</li>
+<li>Program Chairs
+<ul>
+<li><a href="http://stanford.edu/~jwlockwd/">John W. Lockwood</a>: Stanford University</li>
+<li><a href="http://www.cl.cam.ac.uk/~awm22/">Andrew W. Moore</a>: Cambridge University</li>
+</ul>
+</li>
+<li>Program Committee
+<ul>
+<li>Satnam Singh, Microsoft Research Cambridge</li>
+<li>David Miller, Cambridge University Computer Laboratory</li>
+<li>Gordon Brebner, Xilinx</li>
+<li>Martin ?ádník, Brno University of Technology</li>
+<li>Glen Gibb: Stanford University</li>
+<li>Adam Covington: Stanford University</li>
+<li>David Greaves: Cambridge University</li>
+<li>Eric Keller: Princeton University</li>
+</ul>
+<li><a href="http://NetFPGA.org//NetFPGA-DevConf-2009.pdf">Single-page Call for Papers posting</a></li>
+<ul>
+<br />
+<br />
+";s:14:"date_timestamp";i:1233604759;}i:8;a:13:{s:5:"title";s:13:"NetFlow Probe";s:4:"link";s:43:"http://netfpga.org/wordpress/netflow-probe/";s:8:"comments";s:52:"http://netfpga.org/wordpress/netflow-probe/#comments";s:7:"pubdate";s:31:"Thu, 15 Jan 2009 19:48:33 +0000";s:2:"dc";a:1:{s:7:"creator";s:8:"Lockwood";}s:8:"category";s:48:"ApplicationsFlow MonitoringProjects: Contributed";s:4:"guid";s:35:"http://netfpga.org/wordpress/?p=165";s:11:"description";s:359:"The NetFlow Probe is a NetFPGA project that exports NetFlow v5 flow monitoring information.
+First implemented in Cisco routers, NetFlow is wide spreaded flow measurement solution of network traffic. It provides statistics on IP traffic flows such as who communicates with whom, how long, how often, using what protocol and service and also how much data [...]";s:7:"content";a:1:{s:7:"encoded";s:2097:"<p>The NetFlow Probe is a NetFPGA project that exports NetFlow v5 flow monitoring information.</p>
+<div class="wp-caption aligncenter" ><a href="http://www.liberouter.org/~xzadni00/netflowsmall.png"><img title="NetFlow Probe Icon" src="http://www.liberouter.org/~xzadni00/netflowsmall.png" alt="NetFlow Probe Icon" width="151" height="126" /></a><p class="wp-caption-text">NetFlow Probe Icon</p></div>
+<p>First implemented in Cisco routers, NetFlow is wide spreaded flow measurement solution of network traffic. It provides statistics on IP traffic flows such as who communicates with whom, how long, how often, using what protocol and service and also how much data was transfered. NetFlow data might be utilized in many applications such as routing optimization, application troubleshooting, traffic mix monitoring, accounting and billing, anomaly tracking and others.</p>
+<p>The metering and exporting processes are completely implemented on the NetFPGA card whereas control, configuration and collecting processes are implemented as a user software running in the host computer.</p>
+<p>The characteristics of the NetFlow gateware are as follows:</p>
+<ul>
+<li>Measurement of four 1 Gbps interfaces at the line rate</li>
+<li>Measurement of IPv4 flows only</li>
+<li>Memory for up to 4000 concurrent flows.</li>
+<li>Timestamp with millisecond resolution synchronized to host clock</li>
+<li>Export of flowrecords using NetFlow v5 export protocol</li>
+</ul>
+<p>The project contains gateware, initialization script, configuration script, set of regression tests. Java GUI is being implemented and will be added in March.</p>
+<p><strong>More Information</strong></p>
+<ul>
+<li><a href="http://netfpga.org/netfpgawiki/index.php/Projects:NetFlowProbe"><strong>Complete Details are on the Wiki</strong></a></li>
+<li><a href="http://forum.netfpga.org/forumdisplay.php?f=9"><strong>Visit the Discussion Group on the VBulletin Forum</strong></a></li>
+<li><a href="http://www.liberouter.org/~xzadni00/netfpga.netflow.1_0.tar.gz">Download the package</a> or use <tt>yum install netfpga-netflow</tt></li>
+</ul>
+";}s:3:"wfw";a:1:{s:10:"commentrss";s:56:"http://cleanslate.stanford.edu/wordpress/?feed=rss2&p=20";}s:7:"summary";s:359:"The NetFlow Probe is a NetFPGA project that exports NetFlow v5 flow monitoring information.
+First implemented in Cisco routers, NetFlow is wide spreaded flow measurement solution of network traffic. It provides statistics on IP traffic flows such as who communicates with whom, how long, how often, using what protocol and service and also how much data [...]";s:12:"atom_content";s:2097:"<p>The NetFlow Probe is a NetFPGA project that exports NetFlow v5 flow monitoring information.</p>
+<div class="wp-caption aligncenter" ><a href="http://www.liberouter.org/~xzadni00/netflowsmall.png"><img title="NetFlow Probe Icon" src="http://www.liberouter.org/~xzadni00/netflowsmall.png" alt="NetFlow Probe Icon" width="151" height="126" /></a><p class="wp-caption-text">NetFlow Probe Icon</p></div>
+<p>First implemented in Cisco routers, NetFlow is wide spreaded flow measurement solution of network traffic. It provides statistics on IP traffic flows such as who communicates with whom, how long, how often, using what protocol and service and also how much data was transfered. NetFlow data might be utilized in many applications such as routing optimization, application troubleshooting, traffic mix monitoring, accounting and billing, anomaly tracking and others.</p>
+<p>The metering and exporting processes are completely implemented on the NetFPGA card whereas control, configuration and collecting processes are implemented as a user software running in the host computer.</p>
+<p>The characteristics of the NetFlow gateware are as follows:</p>
+<ul>
+<li>Measurement of four 1 Gbps interfaces at the line rate</li>
+<li>Measurement of IPv4 flows only</li>
+<li>Memory for up to 4000 concurrent flows.</li>
+<li>Timestamp with millisecond resolution synchronized to host clock</li>
+<li>Export of flowrecords using NetFlow v5 export protocol</li>
+</ul>
+<p>The project contains gateware, initialization script, configuration script, set of regression tests. Java GUI is being implemented and will be added in March.</p>
+<p><strong>More Information</strong></p>
+<ul>
+<li><a href="http://netfpga.org/netfpgawiki/index.php/Projects:NetFlowProbe"><strong>Complete Details are on the Wiki</strong></a></li>
+<li><a href="http://forum.netfpga.org/forumdisplay.php?f=9"><strong>Visit the Discussion Group on the VBulletin Forum</strong></a></li>
+<li><a href="http://www.liberouter.org/~xzadni00/netfpga.netflow.1_0.tar.gz">Download the package</a> or use <tt>yum install netfpga-netflow</tt></li>
+</ul>
+";s:14:"date_timestamp";i:1232048913;}i:9;a:13:{s:5:"title";s:33:"Hardware Accelerated Linux Router";s:4:"link";s:48:"http://netfpga.org/wordpress/netfpga-router-kit/";s:8:"comments";s:57:"http://netfpga.org/wordpress/netfpga-router-kit/#comments";s:7:"pubdate";s:31:"Wed, 14 Jan 2009 23:04:16 +0000";s:2:"dc";a:1:{s:7:"creator";s:4:"gac1";}s:8:"category";s:26:"ApplicationsProjects: Base";s:4:"guid";s:35:"http://netfpga.org/wordpress/?p=124";s:11:"description";s:330:"
+Features
+
+Hardware Acceleration to unmodified Linux System
+Mirrors Linux Routing and ARP tables into NetFPGA reference router
+Supports Manual entries using arp or route commands
+Can run alongside a standard routing daemon, such as XoRP, or Zebra/Quagga
+
+More Information
+Complete Details are in the Guide
+Forum Discussion Board
+
+";s:7:"content";a:1:{s:7:"encoded";s:680:"<p><img src="http://netfpga.org/images/Router_Kit_Green_routerICON.jpg" alt="" align="center" ></p>
+<p><strong>Features</strong></p>
+<ul>
+<li>Hardware Acceleration to unmodified Linux System</li>
+<li>Mirrors Linux Routing and ARP tables into NetFPGA reference router</li>
+<li>Supports Manual entries using arp or route commands</li>
+<li>Can run alongside a standard routing daemon, such as XoRP, or Zebra/Quagga</li>
+</ul>
+<p><strong>More Information</strong></p>
+<li><a href="http://netfpga.org/netfpgawiki/index.php/Guide#Router_Kit_Walkthrough">Complete Details are in the Guide</a>
+<li><a href="http://forum.netfpga.org/forumdisplay.php?f=12">Forum Discussion Board</a>
+</ul>
+";}s:3:"wfw";a:1:{s:10:"commentrss";s:56:"http://cleanslate.stanford.edu/wordpress/?feed=rss2&p=21";}s:7:"summary";s:330:"
+Features
+
+Hardware Acceleration to unmodified Linux System
+Mirrors Linux Routing and ARP tables into NetFPGA reference router
+Supports Manual entries using arp or route commands
+Can run alongside a standard routing daemon, such as XoRP, or Zebra/Quagga
+
+More Information
+Complete Details are in the Guide
+Forum Discussion Board
+
+";s:12:"atom_content";s:680:"<p><img src="http://netfpga.org/images/Router_Kit_Green_routerICON.jpg" alt="" align="center" ></p>
+<p><strong>Features</strong></p>
+<ul>
+<li>Hardware Acceleration to unmodified Linux System</li>
+<li>Mirrors Linux Routing and ARP tables into NetFPGA reference router</li>
+<li>Supports Manual entries using arp or route commands</li>
+<li>Can run alongside a standard routing daemon, such as XoRP, or Zebra/Quagga</li>
+</ul>
+<p><strong>More Information</strong></p>
+<li><a href="http://netfpga.org/netfpgawiki/index.php/Guide#Router_Kit_Walkthrough">Complete Details are in the Guide</a>
+<li><a href="http://forum.netfpga.org/forumdisplay.php?f=12">Forum Discussion Board</a>
+</ul>
+";s:14:"date_timestamp";i:1231974256;}}s:7:"channel";a:8:{s:5:"title";s:10:"Cleanslate";s:4:"link";s:40:"http://cleanslate.stanford.edu/wordpress";s:11:"description";s:37:"An Interdisciplinary Research Program";s:7:"pubdate";s:31:"Sun, 03 May 2009 19:50:37 +0000";s:9:"generator";s:29:"http://wordpress.org/?v=2.7.1";s:8:"language";s:2:"en";s:2:"sy";a:2:{s:12:"updateperiod";s:6:"hourly";s:15:"updatefrequency";s:1:"1";}s:7:"tagline";s:37:"An Interdisciplinary Research Program";}s:9:"textinput";a:0:{}s:5:"image";a:0:{}s:9:"feed_type";s:3:"RSS";s:12:"feed_version";s:3:"2.0";s:8:"encoding";s:10:"ISO-8859-1";s:16:"_source_encoding";s:0:"";s:5:"ERROR";s:0:"";s:7:"WARNING";s:0:"";s:19:"_CONTENT_CONSTRUCTS";a:6:{i:0;s:7:"content";i:1;s:7:"summary";i:2;s:4:"info";i:3;s:5:"title";i:4;s:7:"tagline";i:5;s:9:"copyright";}s:16:"_KNOWN_ENCODINGS";a:3:{i:0;s:5:"UTF-8";i:1;s:8:"US-ASCII";i:2;s:10:"ISO-8859-1";}s:5:"stack";a:0:{}s:9:"inchannel";b:0;s:6:"initem";b:0;s:9:"incontent";b:0;s:11:"intextinput";b:0;s:7:"inimage";b:0;s:17:"current_namespace";b:0;s:13:"last_modified";s:31:"Sun, 03 May 2009 19:50:37 GMT
+";s:4:"etag";s:36:""de82f8fa34079a63a0bbeeeb3f56a89c"
+";}

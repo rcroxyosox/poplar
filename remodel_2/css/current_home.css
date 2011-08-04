@@ -1,0 +1,121 @@
+#main {
+	width: 800px; 
+	padding: 0px;
+	margin-top:30px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto; 	
+	/* opera does not like 'margin:20px auto' */
+	text-align:left; 
+	/* part 2 of 2 centering hack */
+	width: 800px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 800px;
+}
+html>body #main {
+	width: 800px; /* ie5win fudge ends */
+}
+#home_text {
+	margin-top: 15px;
+	padding-right: 20px;
+	text-align:justify;
+}
+
+#home_right_pic {
+	margin-top: 15px;
+	margin-left: 3px;
+	width: 150px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+#home_right_pic_text {
+	margin-left: 2px;
+	margin-bottom: 10px;
+	line-height:1.0;	
+}
+
+
+#home_right_pic_text a:link {text-decoration: none; color:#666666;}  
+#home_right_pic_text a:visited {text-decoration: none; color:#666666; }
+#home_right_pic_text a:hover {text-decoration: none; color:#000000;}
+#home_right_pic_text a:active {text-decoration: none; color:#666666;}
+
+
+#home_right_menu_top {
+	background: url(../images/home_right_menu_top.jpg) top center no-repeat #FFFFFF;
+	height: 34px;
+}
+#home_right_menu {
+	margin: 0px;
+	padding: 0px;
+	background: url(../images/home_right_menu_bg.jpg) top center repeat-y #FFFFFF;
+}
+#home_right_menu_btm {
+	background: url(../images/home_right_menu_btm.jpg) top center no-repeat #FFFFFF;
+	height: 6px;
+}
+#home_right_menu ul {
+	font-size: 15px;
+	margin: 0px 6px 5px 27px;
+	padding: 0px;
+	line-height: 12px;
+	margin-top: 0px;
+}
+#home_right_menu a {
+	color: #825282;
+	font-weight: bolder;
+	line-height: 16px;
+}
+#home_right_menu li {
+	margin-top: 0px;
+	margin-right: 2px;
+	padding: 0px;
+	text-align: left;
+	margin: 0 0 0 0;
+	font-weight:200;
+	font-size:16px;
+	color:#666666;
+}
+
+#inside_the_box {
+
+	/***margin-top:11.4px;  **/
+	margin-top:5.0px;
+	margin-bottom: 6px;
+	padding-top: 0px;
+	line-height: 1.6;
+}
+
+#inside_the_box p.learn_more {
+padding: 0;
+margin: 5px 0px 15px 15px;
+font-size: 10px;
+}
+
+#inside_the_box a:link {text-decoration: none; color:#666666;}  
+#inside_the_box a:visited {text-decoration: none; color:#666666; }
+#inside_the_box a:hover {text-decoration: none; color:#000000;}
+#inside_the_box a:active {text-decoration: none; color:#666666;}
+
+
+#rss_feed	{
+	margin-top: 0px;
+	float: right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding: 0;
+	margin: 0 5px 0 15px;
+	
+}
+
+#rss_feed img	{
+	width: 20px;
+}
+
+#rss_feed a:link {text-decoration: none; }  
+#rss_feed a:visited {text-decoration: none; }
+#rss_feed a:hover {text-decoration: none; }
+#rss_feed a:active {text-decoration: none; }
+

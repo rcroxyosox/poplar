@@ -1,0 +1,121 @@
+#main {
+	width: 800px; 
+	padding: 0px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto; 	
+	/* opera does not like 'margin:20px auto' */
+	text-align:left; 
+	/* part 2 of 2 centering hack */
+	width: 800px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 800px;
+}
+html>body #main {
+	width: 800px; /* ie5win fudge ends */
+}
+#home_text {
+	margin-top: 15px;
+	padding-right: 20px;
+	text-align: justify;
+}
+#home_right_rss  {
+	margin-top: 10px;
+	font-size: 13px;
+	margin: 10px 6px 5px 10px;
+	padding: 0px;
+	line-height: 13px;
+	height:80px;
+	width:130px;
+	text-decoration: none;
+	text-align:right;
+	border:none;
+	color: 3F3F3F;
+	
+}
+#home_right_pic  {
+	margin-top: 10px;
+	font-size: 13px;
+	margin: 10px 6px 5px 10px;
+	padding: 0px;
+	line-height: 13px;
+	height:80px;
+	width:130px;
+	text-decoration: none;
+	text-align:left;
+	border:none;
+	color: 3F3F3F;
+	
+}
+
+#home_right_pic a:link {text-decoration: none; color: #3F3F3F;}
+#home_right_pic a:visited {text-decoration: none; color: #3F3F3F;}
+#home_right_pic a:hover {text-decoration: underline; color: #3F3F3F;}
+#home_right_pic a:active {text-decoration: none; color: #3F3F3F;}
+
+#home_right_pic img {
+	border:none;
+}
+
+
+#home_right_menu_top {
+	background: url(../images/home_right_menu_top.jpg) top center no-repeat #FFFFFF;
+	height: 34px;
+	}
+#home_right_menu {
+	background: url(../images/home_right_menu_bg.jpg) top center repeat-y #FFFFFF;
+	}
+	
+#home_right_menu_btm {
+	background: url(../images/home_right_menu_btm.jpg) top center no-repeat #FFFFFF;
+	height: 6px;
+}
+#home_right_menu p {
+	font-size: 13px;
+	margin: 10px 6px 5px 10px;
+	padding: 0px;
+	line-height: 12px;
+	height:20px;
+	width:140px;
+}
+#home_right_menu a {
+	color: #825282;
+	font-weight: bolder;
+	line-height: 16px;
+}
+#home_right_menu li {
+	margin-top: 2px;
+	margin-right: 2px;
+	padding: 0px;
+	text-align: left;
+}
+/*************************************/
+
+#home_left_lower_box {
+	
+  	margin-left: 3px;
+  	padding: 0;
+  	width: 688px;
+  	height: 1px;
+}
+
+#home_left_lower_box_left {
+	padding: 0;
+  	margin: 10px 0 0 0;
+	width:100px;
+	float:left;
+}
+#home_left_lower_box_middle {
+	padding: 0;
+  	margin: 10px 0 0 0;
+	width:100px;
+	float:center;
+}
+#home_left_lower_box_right {
+	padding: 0;
+  	margin: 10px 0 0 0;
+	width:100px;
+	float:right;
+}

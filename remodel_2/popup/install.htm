@@ -1,0 +1,184 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>To install this script</title>
+
+<script language="JavaScript" src="popup.js">
+
+//Popup box II (By Brian Gosselin at http://scriptasylum.com/bgaudiodr)
+//Modified slightly By Dynamic Drive
+//For full source, visit http://www.dynamicdrive.com
+
+</script>
+
+<script language="javascript">
+
+
+function pastecode(){
+var d=document.f;
+d.codea.value='new popUp('+d.x.value+', '+d.y.value+', '+d.w.value+', '+d.h.value+', "'+d.id.value+'", "'+d.ctxt.value+'", "'+d.cbgc.value+'", "'+d.ctc.value+'", "'+d.fss.value+'", "'+d.ttxt.value+'", "'+d.tbgc.value+'", "'+d.ttc.value+'", "'+d.bc.value+'", "'+d.sbc.value+'", "'+d.sc.value+'", '+d.sos.value+', '+d.dg.value+', '+d.rsz.value+', '+d.okold.value+', '+d.popname.value+');'
+}
+
+function openpopup(){
+var d=document.f;
+var s_top=document.all? document.body.scrollTop : window.pageYOffset
+new popUp(parseInt(d.x.value), s_top+parseInt(d.y.value), parseInt(d.w.value), parseInt(d.h.value), d.id.value+(new Date().getTime()), d.ctxt.value, d.cbgc.value, d.ctc.value, d.fss.value, d.ttxt.value, d.tbgc.value, d.ttc.value, d.bc.value, d.sbc.value, d.sc.value, eval(d.sos.value), eval(d.dg.value), eval(d.rsz.value), eval(d.okold.value));
+}
+
+</script>
+</head>
+
+<body>
+
+<h2><!--webbot bot="HTMLMarkup" startspan --><script>
+var explain0="In older browsers (not IE5+ or NS6+), should a popup window be displayed instead of the DHTML box?"
+var explain1="A browser session refers to the duration of time while the browser window is open. Closing the browser ends a session"
+var explain1='Specify your content here. If it contains apostrophes, you MUST backslash (\\) them. For example:\n"A picture: <img src=\\"joe.gif\\"> of my aunt"'
+
+
+</script>
+
+<form name="f">
+<table cellpadding="4" cellspacing="0" border="0" bgcolor="#F3FFE8" style="background-color:#F3FFE8; font:12px">
+<tr><td align="center" colspan="4"><h3>Popup Wizard</h3></td></tr>
+<tr><td align="right" width="110">X Position</td><td align="left"><input type="text" size="20" name="x" value="200"></td><td align="right" width="110">Y Position</td><td align="left"><input type="text" size="20" name="y" value="100"></td></tr>
+<tr><td align="right" width="110">Width<br>(100 Min.)</td><td align="left"><input type="text" size="20" name="w" value="300"></td><td align="right" width="110">Height<br>(80 Min.)</td><td align="left"><input type="text" size="20" name="h" value="175"></td></tr>
+<tr><td align="right" width="110"><b>UNIQUE</b> box ID</td><td align="left"><input type="text" size="20" name="id" value="Div"></td><td align="right" width="110"><a href="javascript:alert(explain1)">Content Text</a></td><td align="left"><textarea rows="3" cols="20" name="ctxt">Put all of your content text in here.<br><br>You can also place HTML code in here too, such as a picture: <img src=\"max.gif\">. Notice how a backslash must proceed every quotation (\") that appears in your HTML content.</textarea></td></tr>
+<tr><td align="right" width="110">Content Background Color</td><td align="left"><input type="text" size="20" name="cbgc" value="white"></td><td align="right" width="110">Content Text Color</td><td align="left"><input type="text" size="20" name="ctc" value="black"></td></tr>
+<tr><td align="right" width="110">Content Font Style Set</td><td align="left"><input type="text" size="20" name="fss" value="bold 10pt sans-serif"></td><td align="right" width="110">Title Text</td><td align="left"><input type="text" size="20" name="ttxt" value="Title Bar"></td></tr>
+<tr><td align="right" width="110">Titlebar Background Color</td><td align="left"><input type="text" size="20" name="tbgc" value="navy"></td><td align="right" width="110">Titlebar Text Color</td><td align="left"><input type="text" size="20" name="ttc" value="white"></td></tr>
+<tr><td align="right" width="110">Border Color</td><td align="left"><input type="text" size="20" name="bc" value="#dddddd"></td><td align="right" width="110">Scrollbar Color<br>(IE5.5+ only)</td><td align="left"><input type="text" size="20" name="sbc" value="gray"></td></tr>
+<tr><td align="right" width="110">Shadow Color</td><td align="left"><input type="text" size="20" name="sc" value="black"></td><td align="right">Shown on Start?</td><td align="left"><input type="text" size="20" name="sos" value="true"></td></tr>
+<tr><td align="right" width="110">Draggable?</td><td align="left"><input type="text" size="20" name="dg" value="true"></td><td align="right">Resizeable?</td><td align="left"><input type="text" size="20" name="rsz" value="true"></td></tr>
+<tr><td align="right" width="110"><a href="javascript:alert(explain0)">OK for old browsers?</a></td><td align="left"><input type="text" size="20" name="okold" value="true"></td>
+
+<td align="right"><a href="javascript:alert(explain1)">Popup ONCE<br>per browser session?</a></td><td align="left"><input type="text" size="20" name="popname" value="false"></td>
+
+
+</tr>
+<tr><td align="center" colspan="4"><table width="400" cellpadding="5"><tr><td align="center"><input type="button" value="Generate Code" onclick="pastecode()"><br><br><textarea style="width:400px;height:150px" name="codea" rows="1" cols="20" ></textarea></td></tr></table></td></tr>
+<tr><td align="center" colspan="4"><input type="button" value="Preview Popup" onclick="openpopup()"><br></td></tr>
+
+</table>
+</form>
+<!--webbot bot="HTMLMarkup" endspan -->
+</h2>
+
+<h2>To install this script, follow the steps below:</h2>
+<ul>
+  <li><b>Step 1:</b> Paste the below code somewhere in between the &lt;HEAD&gt;
+    and &lt;/HEAD&gt; tags:
+    <pre><b>&lt;script language=&quot;JavaScript&quot; src=&quot;popup.js&quot;&gt;</b></pre>
+    <pre>//Popup box II (By Brian Gosselin at http://scriptasylum.com/bgaudiodr)
+//Modified slightly By Dynamic Drive
+//For full source, visit http://www.dynamicdrive.com</pre>
+    <pre><b>&lt;/script&gt;</b></pre>
+  <li><b>Step 2: </b>You now need to define and insert the codes for each popup
+    you want to display. Use <a href="http://www.dynamicdrive.com/dynamicindex11/abox2.php">the
+    wizard</a> to create this code, then paste the result in the &lt;BODY&gt;
+    section of your page, surrounded by <font face="Courier">window.onload=function{.....}</font>. Here is an example:
+    <pre>&lt;script&gt;
+window.onload=function(){
+<font color="#FF0000">new popUp(200, 100, 300, 175, &quot;Div&quot;, &quot;This is a test&quot;, &quot;white&quot;, &quot;black&quot;, &quot;bold 10pt sans-serif&quot;, &quot;Title Bar&quot;, &quot;navy&quot;, &quot;white&quot;, &quot;#dddddd&quot;, &quot;gray&quot;, &quot;black&quot;, true, true, true, true, false);</font>
+}
+&lt;/script&gt;</pre>
+  <li><b>Step 3: </b>Finally, upload all the accompanying files that came with
+    this .zip file (the .gif and popup.js files) to your server.</li>
+</ul>
+<h3>Explanation of function new PopUp(.....)</h3>
+<pre><b>new popUp(left_position, top_position, width, height, id_of_box, content_text, content_bgcolor, content_text_color, content_font_stylestring, title_text, title_bgcolor, title_text_color, border_color,  scrollbar_color, shadow_color, is_hidden_on_start, is_draggable, is_resizeable, show_old, sessioncontrol);</b></pre>
+<ul>
+  <li><b>left_position</b> - Left pixel coordinate from left edge of browser
+    window. Number.
+  <li><b>top_position</b> - Top pixel coordinate from left edge of browser
+    window. Number.
+  <li><b>width</b> - Width of popup in pixels. Number.
+  <li><b>height</b> - Height of popup in pixels. Number.
+  <li><b>id_of_box</b> - <i>Unique</i> arbitrary ID value given to the popup.
+    String.
+  <li><b>content_text</b> - HTML string inside popup. Because the content is in
+    string form, watch for syntax! String.
+  <li><b>content_bgcolor</b> - Content area background color. Hex color triplet
+    or valid color name string.
+  <li><b>content_text_color</b> - Content text color, obviously. :) Hex color
+    triplet or valid color name string.
+  <li><b>content_font_stylestring</b> - Font style set using cascading
+    stylesheet type syntax. Hex color triplet or valid color name string.
+  <li><b>title_text</b> - Text to appear in the titlebar. String.
+  <li><b>title_bgcolor</b> - Background color of the titlebar when active. Hex
+    color triplet or valid color name string.
+  <li><b>title_text_color</b> - Color of the titlebar text. Hex color triplet or
+    valid color name string.
+  <li><b>border_color</b> - Color of the popup borders. Hex color triplet or
+    valid color name string.
+  <li><b>scrollbar_color</b> - Color of the scrollbar (IE5.5 only) and the color
+    of the titlebar when not active. Hex color triplet or valid color name
+    string.
+  <li><b>shadow_color</b> - Semi-transparent shadow color (IE5+, NS6+ only). Hex
+    color triplet or valid color name string.
+  <li><b>is_hidden_on_start</b> - Specifies whether the popup is initially
+    &quot;closed&quot;. true or false.
+  <li><b>is_draggable</b> - Specifies whether popup is draggable. true or false.
+  <li><b>is_resizeable</b> - Specifies whether popup is resizeable. If not,
+    resize handle will not be present and the minimize and restore buttons will
+    not work either. true or false.
+  <li><b>show_old</b> - Specifies whether the popup will show up in
+    &quot;non-standards&quot; browsers. The popup appears as normal windows in
+    these types of browsers if this value is enabled.
+  <li><b>sessioncontrol</b> - Specifies whether popup should pop up only ONCE
+    per browser session, to minimize exposure to visitors. Default is
+    &quot;false&quot;.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+  <li>The neat thing about this script is that none of the popups have to be
+    pre-defined. They can be created on-the-fly, just like the popup wizard
+    above! <i>But</i>, if you do have pre-defined windows you wish to use,
+    you'll have to create them once the page finishes loading. This is done by
+    putting them in a <b>window.onload</b> event handler. The code would look
+    something like:
+    <pre><b>window.onload=function(){
+new popUp(250, 50, 350, 175, &quot;box1&quot;...
+new popUp(250, 50, 350, 175, &quot;box2&quot;...
+}</b></pre>
+  <li><i>If you are using a link to create a popup, please read:</i><br>
+    Because a user can click a link repeatedly, the link you use to create the
+    popup will be using the same <b>id_of_box</b>, which will <u>not</u> work.
+    You must find some way of ensuring all popup id's are unique. Using a
+    counter and appending the counter value to a base id string works well (
+    'id' + 1 = 'id1' , 'id' + 2 = 'id2', and so on). Here is a quick script
+    example:
+    <pre><b>var counter=0;
+function createPopup(){
+counter++;
+new popUp(50, 75, 200, 200, ('popupID'+counter), 'Content' , other parameters...);
+}</b></pre>
+    This is why it may be better to have a popup predefined and use a link to
+    make it appear instead of using a link to create a new one.<br>
+    <br>
+  <li>Also, do NOT use any spaces in the ID name, errors will result. Errors
+    will also appear if you use an invalid color name (such as
+    &quot;blakc&quot;). You can avoid this by using hex color triplet values
+    instead (ex: &quot;#FFFFFF&quot; instead of &quot;white&quot;), or make sure
+    the color names you use are CSS approved.</li>
+</ul>
+<h3>Miscellaneous:</h3>
+<ul>
+  <li>To close the popup, just click the box in the corner <img src="close.gif" width="16" height="16">.
+    This actually just &quot;hides&quot; the popup. They can also be hidden or
+    shown again through 2 functions: &nbsp;<b>hidebox(</b><i>ID</i><b>)</b> and <b>showbox(</b><i>ID</i><b>)</b>.
+    <i>ID</i> is the ID of the popup you want to hide/show. Examples:<br>
+    <pre>&lt;a href=&quot;javascript:showbox('Div_ID1')&quot;&gt;Show Div_ID1&lt;/a&gt;
+&lt;a href=&quot;javascript:hidebox('Div_ID1')&quot;&gt;Hide Div_ID1&lt;/a&gt;</pre>
+    The four links in the top left of this page use this method to close and
+    re-open the 2 pre-defined popups on this page. Obviously, you cannot create
+    links like this to control popups created dynamically because you dont know
+    what their <i>ID</i> will be.</li>
+</ul>
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+#content_text td{
+	border: none;
+}
+td.empty{
+	border: none;
+}
+#content_text img{
+	margin-left: 0px;
+}
+.double {
+	margin: 0px 10px 10px 0px;
+}
+.email {
+	font-size: 10pt;
+	margin: 0px;
+	width: 550px;
+	background: #F8F8F8;
+	border: 1px solid #999999;
+}
+.email_subject {
+	padding: 20px 0px 10px 20px;
+	font-size: 16pt;
+}
+#email_subject_underline {
+	padding: 0px 40px 5px 0px;
+	border-bottom: 1px solid #999999;
+}
+.email_body {
+	padding: 0px 30px 0px 40px;
+}
+.email_salutation {
+	text-align: right;
+	color: #666666;
+	padding: 0px 30px 0px 0px;
+}
+.email_byline {
+	text-align: right;
+	font-size: 12pt;
+	color: #666666;
+	padding: 0px 30px 10px 0px;
+}
+.email_bytitle {
+	font-size: 10pt;
+	color: #BBBBBB;
+}
+a.articleLink {
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #563459;
+}
+.articles {
+	font-size: 10pt;
+	margin: 0px;
+	width: 550px;
+	border: 1px solid #BBBBBB;
+	text-align: center;
+	margin-top: 30px;
+}
+.article_title {
+	font-size: 12pt;
+	color: #686868;
+	font-weight: bold;
+}
+.article_description {
+	font-size: 10pt;
+	color: #666666;
+}
+.article_date,  .article_date_left{
+	font-size: 9pt;
+	color: #666666;
+	text-align: right;
+	padding: 0px;
+	width: 550px;
+}
+.article_date_left {
+	text-align: left;
+}
+.article_body {
+	padding: 0px 30px 15px 40px;
+}

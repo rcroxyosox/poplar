@@ -1,0 +1,267 @@
+html.body #main {
+	width: 800px; /* ie5win fudge ends */
+}
+
+/***What's New Box******************/
+#home_right_menu_top {
+	background: url(../images/home_right_menu_top.jpg) top center no-repeat #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	height: 34px;
+}
+#home_right_menu {
+	margin: 0px; 
+	padding: 0px;
+	background: url(../images/home_right_menu_bg.jpg) top center repeat-y #FFFFFF;
+}
+#home_right_menu_btm {
+	background: url(../images/home_right_menu_btm.jpg) top center no-repeat #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	height: 6px;
+}
+
+/******** Blog Titles **********/
+#home_right_menu ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 18px;
+	
+}
+
+#home_right_menu ul {
+	list-style-type:none;
+}
+
+#home_right_menu a {
+	margin-left: 0px;
+	margin-right:0px;
+	color: #825282;
+}
+
+#home_right_menu li {
+	text-align: left;
+	margin-left: 16px;
+	margin-right:12px;
+
+	font-size:15px;
+	color:#666666;
+}
+
+/****************************************************/
+
+#home_text {
+	margin-top: 15px;
+	padding-right: 10px;
+	text-align:justify;
+}
+/****************************************************/
+
+#inside_the_box {
+	width: 160px;
+	padding-top: 0px;
+/**	padding-left: 19px;  **/
+	padding-right: 0px;
+}
+
+
+
+#inside_the_box p.more {
+padding: 0px;
+margin: 0px;
+margin-left: 16px;
+font-size: 12px;
+}
+
+
+#inside_the_box a:link {text-decoration: none; color:#666666;}  
+#inside_the_box a:visited {text-decoration: none; color:#666666; }
+#inside_the_box a:hover {text-decoration:none; color:#000000; font-weight:400;}
+#inside_the_box a:active {text-decoration: none; color:#666666; }
+
+
+/****************************************************/
+/****************************************************/
+#rss_feed	{
+	
+	float: right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height: 1.0px;
+	padding: 0px;
+	
+}
+
+#rss_feed a {
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align:right;
+	text-decoration: none;
+	outline:none;
+}
+
+#rss_feed img	{
+	width: 16px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align:right;
+	text-decoration: none;
+
+}
+
+#rss_feed a:link {text-decoration: none; }  
+#rss_feed a:visited {text-decoration: none; }
+#rss_feed a:hover {text-decoration: none; }
+#rss_feed a:active {text-decoration: none; }
+
+
+div#tick {
+  z-index: 0;
+  margin-top: 0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+  padding: 0;
+  width: 136px;
+  height: 78px;
+}
+
+#video_image_box {
+	margin: 45px 0px 0px 0px;
+	;
+	padding:0px 6px 0px 5px;
+	text-align: center;
+	outline: none;
+}
+
+#video_image_box img {
+	margin:0px 0px 0px 0px;;
+	padding: 0px 0px 0px 2px;
+	text-align: center;
+}
+
+div#text_under_video_image_box {
+	margin: 0px;
+	padding: 4px 0px 0px 0px;
+	line-height:1.0;
+	text-align: center;
+		
+}
+
+
+div#text_under_video_image_box a:link {text-decoration: none; color:#666666;}  
+div#text_under_video_image_box a:visited {text-decoration: none; color:#666666; }
+div#text_under_video_image_box a:hover {text-decoration: none; color:#000000;}
+div#text_under_video_image_box a:active {text-decoration: none; color:#666666;}
+
+/************************************************************************************/
+/***********SolidBlockMenu***********************************************************/
+.solidblockmenu{
+margin: 0;
+padding: 0;
+float: left;
+font: bold 13px sans-serif;
+width: 506px;
+margin:0px 0px 0px 0px;;
+margin-bottom: 1em;
+border: 1px solid #625e00;
+border-width: 1px 0;
+overflow:hidden;
+}
+
+.solidblockmenu li{
+display:inline;
+}
+
+.solidblockmenu li a{
+float: left;
+color: black;
+padding: 9px 11px;
+text-decoration: none;
+border: 1px solid black;
+overflow:hidden;
+
+
+}
+
+.solidblockmenu li a:visited{
+color: black;
+}
+
+.solidblockmenu li a:hover, .solidblockmenu li .current{
+color: black;
+/***background: transparent url(media/blockactive.gif) center center repeat-x;  ***/
+}
+
+
+#home_bottom_box a:link {text-decoration: none; color:#666666;}  
+#home_bottom_box a:visited {text-decoration: none; color:#666666; }
+#home_bottom_box a:hover {text-decoration: none; color:#000000;}
+#home_bottom_box a:active {text-decoration: none; color:#666666;}
+
+/***************** Callouts *************/
+#callouts{
+	padding: 0px;
+	list-style-type: none;
+	list-style: none;
+	margin-left: 0px;
+	margin-top: 15px;
+}
+#callouts img{
+	border: none;
+}
+#callouts li{
+	float: left;
+	margin-left: 2px;
+	width: 211px;
+	height: 110px;
+	background-repeat: no-repeat;
+	display: block;
+}
+#callouts li a{
+	display: block;
+	text-decoration: none;
+	color: #000000;
+	font-size: 14px;
+	padding-left: 80px;
+	height: 110px;
+	padding-top: 13px;
+}
+#callouts li a:hover{
+	color: #000000;
+	font-size: 14px;
+}
+
+.smaller	{
+	font-size: 12px;
+	color: #666666;
+}
+
+
+
+.cottageliving_mag a{
+background-image: url(../images/call_cottage.jpg);
+background-position: top left;
+}
+
+.cottageliving_mag a:hover{
+background-position: center -110px;
+}
+
+.metropolitanhome_mag a{
+background-image: url(../images/call_metro.jpg);
+background-position: top left;
+}
+
+.metropolitanhome_mag a:hover{
+background-position: center -110px;
+}
+
+.sunset_mag a{
+background-image: url(../images/call_sunset.jpg);
+background-position: top left;
+}
+
+.sunset_mag a:hover{
+background-position: center -110px;
+}

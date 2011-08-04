@@ -1,0 +1,210 @@
+/* Scrollbar Hack */
+
+html { min-height: 100%; margin-bottom: 1px; }
+
+/* Html Styles */
+
+body {
+	background-color:  #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	color: black;
+	text-align: center;
+}
+a {
+	color: #6c3e6c;
+	text-decoration: underline;
+}
+a:hover {
+	color: #6c3e6c;
+	text-decoration: none;
+}
+ul {
+	list-style-image: url(../images/bullet_sm_2.gif);
+}
+
+/* User Styles */
+
+#main {
+	width: 800px; 
+	padding: 0px;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto; 	
+	/* opera does not like 'margin:20px auto' */
+	text-align:left; 
+	/* part 2 of 2 centering hack */
+	width: 800px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 800px;
+}
+html>body #main {
+	width: 800px; /* ie5win fudge ends */
+}
+#main p {
+	font-size: 10pt;
+	clear: left;
+}
+#left_hdr {
+	margin-bottom: 4px;
+}
+
+/* --- Left Menu --- */
+	
+#left_menu {
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	width: 190px; 
+	/* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 190px;
+}
+html>body #left_menu {
+	width: 190px; 
+	/* ie5win fudge ends */
+}
+#left_menu ul {
+	font-size: 13px;
+	margin: 14px 6px 5px 26px;
+	padding: 0px;
+	line-height: 12px;
+}
+#left_menu ul.left_sub {
+	list-style-image: url(../images/bullet_sm_3.gif);
+	font-size: 13px;
+	margin: 4px 2px 8px 17px;
+	padding: 0px;
+	line-height: 12px;
+}
+#left_menu a {
+	color: #669933;
+	font-weight: normal;
+	line-height: 16px;
+	font-size: 14px;
+}
+#left_menu a:hover {
+	color: #000000;
+}
+#left_menu a.selected {
+	color: #000000;
+	text-decoration: none;
+}
+#left_menu li {
+	margin-top: 4px;
+	padding: 0px;
+	text-align: left;
+}
+
+/* --- Main Content Block --- */
+
+#content {
+	float: right;
+	padding: 8px 0px 10px 0px;
+	margin: 0px;/*
+	background: #F6F6F6;
+	border: 1px solid #DDDDDD;*/
+	width: 610px; 
+	/* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 590px;
+}
+html>body #content {
+	width: 590px; 
+	/* ie5win fudge ends */
+}
+#content_header{
+	font-weight: bold;
+	letter-spacing: .03em;
+	font-size: 16pt;
+}
+#content_header_underline {
+	padding: 0px 0px 5px 0px;
+	padding-right: 40px;
+	border-bottom: 1px solid #CCCCCC;
+}
+#content_text {
+	margin-top: 15px;
+	padding: 0px 0px 10px 20px;
+	text-align: justify;
+}
+#content_text ul {
+	text-align: left;
+	font-size: 10pt;
+	padding: 0px;
+	line-height: 1;
+}
+#content_text ol {
+	text-align: left;
+	font-size: 10pt;
+	padding: 0px;
+	line-height: 1;
+}
+#content_text li {
+	margin: 12px 0px 0px 20px;
+	padding: 0px;
+}
+#content_text ul.double {
+	margin: 10px 10px 10px 20px;
+	width: 270px; 
+	/* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 240px;
+}
+html>body #content_text ul.double {
+	width: 240px; 
+	/* ie5win fudge ends */
+}
+#content_text .double {
+	text-align: left;
+	font-size: 10pt;
+	margin: 10px 20px 10px 0px;
+	padding: 0px;
+	float: left;
+	width: 270px; 
+	/* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 250px;
+}
+html>body #content_text .double {
+	width: 250px; 
+	/* ie5win fudge ends */
+}
+
+/* --- Footer --- */
+
+#copyright {
+	margin-top: 8px;
+}
+#footer {
+	width: 800px;
+	padding: 30px 0px 0px 0px;
+	float: left;
+	font-size: 10pt;
+	color:  #999999;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	/* opera does not like 'margin:20px auto' */
+	text-align:center;
+	/* part 2 of 2 centering hack */
+	width: 800px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 800px;
+}
+html>body #footer {
+	width: 800px; /* ie5win fudge ends */
+}

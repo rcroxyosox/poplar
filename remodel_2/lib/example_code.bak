@@ -1,0 +1,7 @@
+<?php
+		require_once('lib/menuheader.php');	   
+	?>
+	
+	<?php
+		require_once('lib/footer.php');	   
+	?>

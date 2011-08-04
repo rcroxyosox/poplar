@@ -1,0 +1,55 @@
+#main {
+	width: 800px; 
+	padding: 0px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto; 	
+	/* opera does not like 'margin:20px auto' */
+	text-align:left; 
+	/* part 2 of 2 centering hack */
+	width: 800px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 800px;
+}
+html>body #main {
+	width: 800px; /* ie5win fudge ends */
+}
+#home_text {
+	margin-top: 15px;
+	padding-right: 20px;
+	text-align: justify;
+}
+#home_right_pic {
+	margin-top: 10px;
+}
+#home_right_menu_top {
+	background: url(../images/home_right_menu_top.jpg) top center no-repeat #FFFFFF;
+	height: 34px;
+}
+#home_right_menu {
+	margin: 0px;
+	padding: 0px;
+	background: url(../images/home_right_menu_bg.jpg) top center repeat-y #FFFFFF;
+}
+#home_right_menu_btm {
+	background: url(../images/home_right_menu_btm.jpg) top center no-repeat #FFFFFF;
+	height: 6px;
+}
+#home_right_menu ul {
+	font-size: 13px;
+	margin: 4px 6px 5px 27px;
+	padding: 0px;
+	line-height: 12px;
+}
+#home_right_menu a {
+	color: #825282;
+	font-weight: bolder;
+	line-height: 16px;
+}
+#home_right_menu li {
+	margin-top: 4px;
+	padding: 0px;
+	text-align: left;
+}

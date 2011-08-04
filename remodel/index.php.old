@@ -1,0 +1,10 @@
+<?php
+	/* RFB - www.tridig.com - created 09.29.2008 */
+	/* RFB - www.tridig.com - last modified 09.29.2008 */
+
+	$source = 'pdf/Vision Statement August 2008.pdf';
+	$dest = 'VisionStatementAugust2008.pdf';
+	header('Content-type: application/pdf');
+	header('Content-disposition: Attachment; filename=' . $dest);
+	readfile($source);
+?>
