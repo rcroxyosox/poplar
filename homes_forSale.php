@@ -140,7 +140,7 @@
 			<tr>
 			  <td width="120" align="center"><a href="homes_catalog_aspen.php"><img src="images/catalog_aspen_t.gif" alt="Aspen" width="79" height="85" border="0"></a></td>
 			  <td width="60" align="center"><a href="homes_catalog_aspen.php">Aspen</a></td>
-			  <td align="center"><p><!-- PRE-CONSTRUCTION*<br> -->
+			  <td align="center"><p>PRE-CONSTRUCTION*<br>
 				<font size="-1">2bed/1.5bath, 1173 sqft.<br>
 				Sun &amp; Incredible views</font></p></td>
 			  <td align="center"><p>7 Walker Green, Lot 9b</p></td>
@@ -148,7 +148,7 @@
 			<tr>
 			  <td width="120" align="center"><a href="homes_catalog_honeyLocust.php"><img src="images/catalog_honeylocust_t.gif" alt="Honey Locust" width="100" height="85" border="0"></a></td>
 			  <td width="60" align="center"><a href="homes_catalog_honeyLocust.php">Honey Locust</a></td>
-			  <td align="center" width="195"><p><!-- PRE-CONSTRUCTION*<br> -->
+			  <td align="center" width="195"><p>PRE-CONSTRUCTION*<br>
 				<font size="-1">3bed/2bath, single car garage, 1280sqft.<br>
 				Sun &amp; Incredible views</font>
 			  </p></td>
@@ -161,7 +161,7 @@
 			<tr>
 			  <td align="center" width="120"><a href="homes_catalog_juniper.php"><img src="images/catalog_juniper_250.gif" alt="Juniper" height="100" border="0"></a></td>
 			  <td align="center" width="60"><a href="homes_catalog_juniper.php">Juniper</a></td>
-			  <td align="center"><p><!-- PRE-CONSTRUCTION*<br> -->
+			  <td align="center"><p>PRE-CONSTRUCTION*<br>
 				<font size="-1">3bed/1.75bath, 1463 sqft.<br />
 				105ft. of creekfront<br />
 				Sun &amp; Incredible views</font></p></td>
@@ -175,7 +175,7 @@
         <tr>
           <td align="center" width="120"><a href="homes_catalog_copper_rose.php"><img src="images/catalog_copper_rose_t.gif" alt="Copper Rose" width="88" height="80" border="0"></a></td>
           <td align="center"><a href="homes_catalog_copper_rose.php">Copper Rose</a></td>
-          <td align="center"><p><!-- PRE-CONSTRUCTION*<br> -->
+          <td align="center"><p>PRE-CONSTRUCTION*<br>
 		  	<font size="-1">3bed/2.5bath with Family Room</font><br>
 		  	<font size="-1"><strong>110ft. of creekfront</strong><br>
 			Sun &amp; Incredible views</font></p></td>
@@ -223,14 +223,12 @@
 			  <td width="60" align="center"><a href="homes_catalog_winter_rose.php">Winter Rose</a></td>
 			  <td align="center"><p>
 				<font size="-1">3bed/2.75bath, 2000 sqft.<br>
-						Creek side with Views!</font></p></td>
+						Creek side with Views!</p></td>
 			  <td align="center"><p>14 Rain Drop Green</p></td>
 			</tr>
 		</table>
 		
-	<!--  <p align="center">* For Preconstruction Specials call 970.453.5303 ext. 703, text 970.418.4900 or <a href="mailto:courtney@poplarhouse.com">email</a>.</p>
-    -->
-    
+	  <p align="center">* For Preconstruction Specials call 970.453.5303 ext. 703, text 970.418.4900 or <a href="mailto:courtney@poplarhouse.com">email</a>.</p>
       <!--<p id="visit" style="text-align:left"><strong>Directions to new Model/Sales Office 18 Madeline Green :</strong> From Main Street Breckenridge turn east on Wellington Road proceed 1.3 miles and thru 3 stop signs veer right to French Gulch Rd. proceed to Bridge Street turn right then first left on to Logan Road to the second  “Green” on your left “Madeline Green”.  18 Madeline Green is the 2nd home on the left.  Open M-F 10 – 5 and on Saturday by appointment.<br>
 Call 970.418.4900</p>-->
 	</div>	
