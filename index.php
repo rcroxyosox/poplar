@@ -163,11 +163,12 @@ and connections to the surrounding forests.</em>"</div>
         <!--    <a href="community_links.php"><img src="images/Surf_brekenridge.jpg" width="150" height="100" border="0"></a>   -->
                 <table width="145" height="81"><tr><td width="145" valign="top">
                <div id="video_image_box">
-<a href="http://youtu.be/1XlCfqqP6C0"><img src="images/firecracker50.jpg" width="125" height="78" border="0">				</div>
+                    <a href="http://youtu.be/Cz02g2oGv9k"><img src="images/firecracker50.jpg" width="125" height="78" border="0"></a>
+                </div>
                 <div id="text_under_video_image_box" style="margin-top: 0px; ">
-					<a href="http://youtu.be/OsVep7p-2yU"><strong>Firecracker 50</strong><br>
+                        <a href="http://youtu.be/Cz02g2oGv9k">
+                        <strong>Firecracker 50</strong><br>
                		Presented by the Wellington Neighborhood
-
                 	</a>
                 </div>
 
