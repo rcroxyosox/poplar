@@ -79,6 +79,7 @@
 <div id="community" class="menu">
 <a class="menuItem" href="community_transportation.php">Transportation</a>
 <a class="menuItem" href="community_technology.php">Technology</a>
+<a class="menuItem" href="community_lifestyle.php">Lifestyle</a>
 <a class="menuItem" href="community_neighborhoodGovernance.php">Neighborhood Governance</a>
 <a class="menuItem" href="community_historicMining.php">Historic Mining Activities</a>
 <a class="menuItem" href="community_deedRestriction.php">"Local Price" Deed Restriction</a>
@@ -162,8 +163,13 @@ and connections to the surrounding forests.</em>"</div>
                 
         <!--    <a href="community_links.php"><img src="images/Surf_brekenridge.jpg" width="150" height="100" border="0"></a>   -->
                 <table width="145" height="81"><tr><td width="145" valign="top">
-               <div id="video_image_box">
-                    <a href="http://youtu.be/Cz02g2oGv9k"><img src="http://img.youtube.com/vi/Cz02g2oGv9k/default.jpg" width="125" border="0"></a>
+                <div id="fb-root" style="position:relative; margin-left:0px; margin-top:20px;">          
+                
+                
+                <script src="http://connect.facebook.net/en_US/all.js#appId=183029111770173&amp;xfbml=1"></script><fb:like href="http://poplarhouse.com/" send="true" layout="button_count" width="110" show_faces="false" action="like" font="arial"></fb:like></div>   
+                
+                <div id="video_image_box">
+                    <a href="http://youtu.be/Cz02g2oGv9k"><img src="http://img.youtube.com/vi/Cz02g2oGv9k/default.jpg" width="120" border="0"></a>
                 </div>
                 <div id="text_under_video_image_box" style="margin-top: 0px; ">
                         <a href="http://youtu.be/Cz02g2oGv9k">

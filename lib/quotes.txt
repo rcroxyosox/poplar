@@ -27,3 +27,12 @@
 --NEXT--
 <p style="font-size: 12px;"><i>&quot;One of best places on earth&quot;</i></p>  
 <p style="font-size: 11px;"><b>-Matthew G.</b><br />Internationally recognized photographer</p>
+--NEXT--
+<p style="font-size: 12px;"><i>&quot;It (Wellington Neighborhood) provides immediate access to several Trailheads that link up to miles and miles of trails in the Breckenridge area.&quot;</i></p>  
+<p style="font-size: 11px;"><b>-Jeff W.</b><br />Maverick Sports Promotions</p>
+--NEXT--
+<p style="font-size: 12px;"><i>&quot;... trail access is second to NONE, great for the kids to play outside when weather is nice, only 1.5mi to Main St, easy to bike into town.&quot;</i></p>  
+<p style="font-size: 11px;"><b>-Jeff C.</b><br />Neighbor, Expert Mountain Biker, Father and Twitter junkie</p>
+--NEXT--
+<p style="font-size: 12px;"><i>&quot;... The Sidedoor Trail … The views, aspens, it’s fast big-ring pedaling, connects to Minnie/X10U8 or up to Prospect and eventually to Lincoln Meadow…and I can get up there in about 15min via McCleary&#39;s access.&quot;</i></p>  
+<p style="font-size: 11px;"><b>-Jeff C.</b><br />Neighbor, Expert Mountain Biker, Father and Twitter junkie</p>

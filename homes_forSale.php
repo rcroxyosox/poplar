@@ -68,6 +68,7 @@
 <div id="community" class="menu">
 <a class="menuItem" href="community_transportation.php">Transportation</a>
 <a class="menuItem" href="community_technology.php">Technology</a>
+<a class="menuItem" href="community_lifestyle.php">Lifestyle</a>
 <a class="menuItem" href="community_neighborhoodGovernance.php">Neighborhood Governance</a>
 <a class="menuItem" href="community_historicMining.php">Historic Mining Activities</a>
 <a class="menuItem" href="community_deedRestriction.php">"Local Price" Deed Restriction</a>
@@ -145,15 +146,15 @@
 				Sun &amp; Incredible views</font></p></td>
 			  <td align="center"><p>7 Walker Green, Lot 9b</p></td>
 			</tr>
-			<tr>
+			<!--<tr>
 			  <td width="120" align="center"><a href="homes_catalog_honeyLocust.php"><img src="images/catalog_honeylocust_t.gif" alt="Honey Locust" width="100" height="85" border="0"></a></td>
 			  <td width="60" align="center"><a href="homes_catalog_honeyLocust.php">Honey Locust</a></td>
-			  <td align="center" width="195"><p><!-- PRE-CONSTRUCTION*<br> -->
+			  <td align="center" width="195"><p>
 				<font size="-1">3bed/2bath, single car garage, 1280sqft.<br>
 				Sun &amp; Incredible views</font>
 			  </p></td>
 			  <td align="center"><p>5 Walker Green, Lot 9a</p></td>
-			</tr>
+			</tr> -->
 		</table>
 		
 		<h4 style="margin-bottom: 5px;">Single Family</h4>
@@ -162,7 +163,7 @@
 			  <td align="center" width="120"><a href="homes_catalog_juniper.php"><img src="images/catalog_juniper_250.gif" alt="Juniper" height="100" border="0"></a></td>
 			  <td align="center" width="60"><a href="homes_catalog_juniper.php">Juniper</a></td>
 			  <td align="center"><p><!-- PRE-CONSTRUCTION*<br> -->
-				<font size="-1">3bed/1.75bath, 1463 sqft.<br />
+				<font size="-1">3bed/2.5bath, 1463 sqft.<br />
 				105ft. of creekfront<br />
 				Sun &amp; Incredible views</font></p></td>
 			  <td align="center"><p>11Walker Green, Lot 10</p></td>
@@ -185,10 +186,31 @@
       <br />
      <h4 style="margin-bottom: 5px; margin-top: 5px;">Under Contract</h4>
 		<table width="100%" border="1" cellpadding="5" cellspacing="0">
-			<tr>
+		
+		<tr>
+			  <td width="120" align="center"><a href="homes_catalog_hawthorne.php"><img src="images/catalog_hawthorne_t.gif" alt="Hawthorne" width="89" height="70" border="0"></a></td>
+			  <td width="60" align="center"><a href="homes_catalog_hawthorne.php">Hawthorne</a></td>
+			  <td align="center" width="195"><p>
+				<font size="-1">3bed/2bath* with family room<br>
+				Creek side and amazing views.</font>
+			  </p></td>
+			  <td align="center"><p>10 Prospector Green, Lot 13</p></td>
+			</tr>
+		<tr>
+			  <td width="120" align="center"><a href="homes_catalog_honeyLocust.php"><img src="images/catalog_honeylocust_t.gif" alt="Honey Locust" width="100" height="85" border="0"></a></td>
+			  <td width="60" align="center"><a href="homes_catalog_honeyLocust.php">Honey Locust</a></td>
+			  <td align="center" width="195"><p>
+				<font size="-1">3bed/2bath, single car garage, 1280sqft.<br>
+				Sun &amp; Incredible views</font>
+			  </p></td>
+			  <td align="center"><p>5 Walker Green, Lot 9</p></td>
+			</tr>	
+		
+		
+		<tr>
 			  <td width="120" align="center"><a href="homes_catalog_aspen.php"><img src="images/catalog_aspen_t.gif" alt="Aspen" width="79" height="85" border="0"></a></td>
 			  <td width="60" align="center"><a href="homes_catalog_aspen.php">Aspen</a></td>
-			  <td align="center"><p>New Sales Office</p></td>
+			  <td align="center"><p>2bed/1.5 bath, 1173 sqft.</p></td>
 			  <td align="center"><p>12  Leap Frog Green</p></td>
 			</tr>
 			<tr>

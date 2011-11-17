@@ -10,14 +10,52 @@
 <?php require_once('lib/meta.php'); ?>
 <link rel="stylesheet" href="css/default.css" />
 <link rel="stylesheet" href="css/menus.css" />
+<link href="jquery.EmbedPicasaGallery_7/css/slimbox2.css" rel="stylesheet" type="text/css">
 <link rel="icon" type="image/ico" href="images/favicon.ico" />
-
-
 <link rel="stylesheet" href="css/slideShow.css" />
 
 <script type="text/JavaScript" src="js/default.js"></script>
 <script type="text/JavaScript" src="js/menus.js"></script>
-<script type="text/JavaScript" src="js/slideShow.js"></script> 
+<script type="text/javascript" src="jquery.EmbedPicasaGallery_7/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="jquery.EmbedPicasaGallery_7/slimbox2.js"></script>
+<script type="text/javascript" src="jquery.EmbedPicasaGallery_7/jquery.EmbedPicasaGallery.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+ /*
+ $("#pics").EmbedPicasaGallery('102428043167201564445',{
+    albumid: "5674510483970664065",
+//	matcher: /Best/,
+//  auto_open: true,
+//  hide_back: true,
+//  show_more: 5,
+    loading_animation: 'jquery.EmbedPicasaGallery_7/css/loading.gif',
+    album_title_tag:    '<h3/>',
+		thumb_tuner:    function(){ 
+													$(".album").find('img').addClass('thumbBorder');
+												}
+ });
+*/
+/**/
+ jQuery("#pics2").EmbedPicasaGallery('102428043167201564445',{
+  albumid: "5674510483970664065",
+  size: 72, // thumb size (32,48,64,72,144,160))
+ loading_animation: 'jquery.EmbedPicasaGallery_7/css/loading.gif',
+  msg_more: 'show<br/>more',
+  //show_more: 5,
+	thumb_tuner:    function(){ 
+													$(".album").find('img').addClass('thumbBorder');
+												}
+ });
+
+
+})
+</script>
+
+
+<!--<script type="text/JavaScript" src="js/slideShow.js"></script> -->
+
+
+ 
 <script type="text/JavaScript">
 
 
@@ -72,6 +110,7 @@
 <div id="community" class="menu">
 <a class="menuItem" href="community_transportation.php">Transportation</a>
 <a class="menuItem" href="community_technology.php">Technology</a>
+<a class="menuItem" href="community_lifestyle.php">Lifestyle</a>
 <a class="menuItem" href="community_neighborhoodGovernance.php">Neighborhood Governance</a>
 <a class="menuItem" href="community_historicMining.php">Historic Mining Activities</a>
 <a class="menuItem" href="community_deedRestriction.php">"Local Price" Deed Restriction</a>
@@ -111,6 +150,10 @@
 <div><img src="images/mtn_top_800.jpg" alt="mountains" width="800" height="67"></div>
 <div id="main">
 	<div id="content_header"><span id="content_header_underline">Slide Show</span></div>
+  <div id="pics"></div>
+  <div id="pics2"></div>
+  
+  
   <div id="slideShow">
 
 <div id="picID"></div>
@@ -127,7 +170,7 @@
 	
 	<div class="video_box">
                 <div class="video_image_box">
-<a href="http://youtu.be/Cz02g2oGv9k"><img src="http://img.youtube.com/vi/Cz02g2oGv9k/default.jpg" width="125" height="78" border="0">				</div>
+<a href="http://youtu.be/Cz02g2oGv9k"><img src="http://img.youtube.com/vi/Cz02g2oGv9k/default.jpg" width="125" height="78" border="0"></a>				</div>
                 <div class="text_under_video_image_box" style="margin-top: 0px; ">
 					<a href="http://youtu.be/Cz02g2oGv9k"><strong>Wellington Neighborhood</strong><br>
                		Firecracker Bike Race...
@@ -137,7 +180,7 @@
 	
 	<div class="video_box">
                 <div class="video_image_box">
-<a href="http://youtu.be/OsVep7p-2yU"><img src="images/goldrunrushvideo.jpg" width="125" height="78" border="0">				</div>
+<a href="http://youtu.be/OsVep7p-2yU"><img src="images/goldrunrushvideo.jpg" width="125" height="78" border="0"></a>				</div>
                 <div class="text_under_video_image_box" style="margin-top: 0px; ">
 					<a href="http://youtu.be/OsVep7p-2yU"><strong>Wellington Neighborhood</strong><br>
                		Gold Run Rush Bike Race...
@@ -147,7 +190,7 @@
 	
          <div class="video_box">
                 <div class="video_image_box">
- 					<a href="http://blip.tv/file/2299092"><img src="images/bliptvThumb_thisis.jpg" alt="Breckenridge Colorado" border="0" align="baseline">
+ 					<a href="http://blip.tv/file/2299092"><img src="images/bliptvThumb_thisis.jpg" alt="Breckenridge Colorado" border="0" align="baseline"></a>
 				</div>
                 <div class="text_under_video_image_box" style="margin-top: 0px; ">
 					<a href="http://blip.tv/file/2299092"><strong>Wellington Neighborhood</strong><br>
@@ -157,7 +200,7 @@
 		</div>
 		<div class="video_box">
                 <div class="video_image_box">
- 					<a href="http://blip.tv/file/1957777"><img src="images/bliptvThumb_smart.jpg" alt="Breckenridge Colorado" border="0" align="baseline">
+ 					<a href="http://blip.tv/file/1957777"><img src="images/bliptvThumb_smart.jpg" alt="Breckenridge Colorado" border="0" align="baseline"></a>
 				</div>
                 <div class="text_under_video_image_box" style="margin-top: 0px; ">
 					<a href="http://blip.tv/file/1957777"><strong>Smart Growth Town</strong><br>
@@ -167,7 +210,7 @@
 		</div>
 		<div class="video_box">
                 <div class="video_image_box">
- 					<a href="http://blip.tv/file/2338129"><img src="images/bliptvThumb_oak.jpg" alt="Tour the Oak house" border="0" align="baseline">
+ 					<a href="http://blip.tv/file/2338129"><img src="images/bliptvThumb_oak.jpg" alt="Tour the Oak house" border="0" align="baseline"></a>
 				</div>
                 <div class="text_under_video_image_box" style="margin-top: 0px; ">
 					<a href="http://blip.tv/file/2338129"><strong>The Oak</strong><br>

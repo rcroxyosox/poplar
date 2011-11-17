@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd" />
 <!--  KB - www.tridig.com created 3.8.06 -->
-<!--  RSB - www.tridig.com updated 06.13.07  -->
+<!--  SLS - www.tridig.com updated 09.19.11  -->
 
 <html>
 <head>
@@ -68,6 +68,7 @@
 <div id="community" class="menu">
 <a class="menuItem" href="community_transportation.php">Transportation</a>
 <a class="menuItem" href="community_technology.php">Technology</a>
+<a class="menuItem" href="community_lifestyle.php">Lifestyle</a>
 <a class="menuItem" href="community_neighborhoodGovernance.php">Neighborhood Governance</a>
 <a class="menuItem" href="community_historicMining.php">Historic Mining Activities</a>
 <a class="menuItem" href="community_deedRestriction.php">"Local Price" Deed Restriction</a>
@@ -112,6 +113,7 @@
 				<ul>
 								<li><a href="community_transportation.php">Transportation</a></li>
 								<li><a href="community_technology.php">Technology</a></li>
+								<li><a href="community_lifestyle.php">Lifestyle</a></li>
 								<li><a href="community_neighborhoodGovernance.php" class="selected">Neighborhood Governance</a></li>
 								<li><a href="community_historicMining.php">Historic Mining Activities</a></li>
 								<li><a href="community_deedRestriction.php">Deed Restriction</a></li>
@@ -133,7 +135,7 @@
 		  <p><img src="images/porch_street_175.jpg" alt="porchsctreet" width="175" height="114">The Wellington Neighborhood is governed by the Wellington   Neighborhood Homeowners Association.  Homeowners play an active part   in the operation of this association with meetings, celebrations and   events.  The association is made up of the President, Board of   Directors and various other committees.  For more information   regarding the Declarations, Bylaws and Design Review Committee   guidelines of the Wellington Neighborhood Association please see the   links below or contact the the Association Administrator at   970-453-5303 ext. 704.    </p>
 		  <p><a href="pdf/declarations.pdf">Declaration of Covenants, Conditions and Restrictions</a> PDF (206 KB) </p>
 		  <p><a href="pdf/bylaws.pdf">Bylaws</a> PDF (74 KB) </p>
-		  <p><a href="pdf/design_guidelines.pdf">Association Design Guidelines</a> PDF (116 KB)</p>
+		  <p><a href="pdf/WN_Design_Standards_ADOPTED_2011.pdf">Association Design Guidelines</a> PDF (450 KB)</p>
 				</div>	
 	</div>	
 	

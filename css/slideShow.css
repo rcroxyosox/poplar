@@ -104,3 +104,7 @@ A.dates:active {
 .text_under_video_image_box a:visited {text-decoration: none; color:#666666; }
 .text_under_video_image_box a:hover {text-decoration: none; color:#000000;}
 .text_under_video_image_box a:active {text-decoration: none; color:#666666;}
+
+.thumbBorder{
+	border: 1px solid #010 !important;
+}

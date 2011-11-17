@@ -71,6 +71,7 @@
 <div id="community" class="menu">
 <a class="menuItem" href="community_transportation.php">Transportation</a>
 <a class="menuItem" href="community_technology.php">Technology</a>
+<a class="menuItem" href="community_lifestyle.php">Lifestyle</a>
 <a class="menuItem" href="community_neighborhoodGovernance.php">Neighborhood Governance</a>
 <a class="menuItem" href="community_historicMining.php">Historic Mining Activities</a>
 <a class="menuItem" href="community_deedRestriction.php">"Local Price" Deed Restriction</a>
@@ -137,7 +138,7 @@
 		  <p>The development of the Wellington Neighborhood is proceeding pursuant   to a Master Plan approved by the Town of Breckenridge.	    </p>
 		  <div> 
 		    <p><a href="pdf/masterplan.pdf">Master Plan</a>  PDF (1220 KB)<br>
-	      <a href="pdf/wellington2block9.pdf">Wellington 2, Block 9</a> PDF (287 KB)</p>
+	      <a href="pdf/wellington2block9.pdf">Wellington 2, Block 9</a> PDF (7561 KB)</p>
 	    </div>
 		  <div>
 				<img src="images/vignette_1.jpg" alt="vignette1"><br>

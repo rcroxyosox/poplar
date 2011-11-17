@@ -71,6 +71,7 @@
 <div id="community" class="menu">
 <a class="menuItem" href="community_transportation.php">Transportation</a>
 <a class="menuItem" href="community_technology.php">Technology</a>
+<a class="menuItem" href="community_lifestyle.php">Lifestyle</a>
 <a class="menuItem" href="community_neighborhoodGovernance.php">Neighborhood Governance</a>
 <a class="menuItem" href="community_historicMining.php">Historic Mining Activities</a>
 <a class="menuItem" href="community_deedRestriction.php">"Local Price" Deed Restriction</a>
@@ -127,59 +128,4 @@
 										<li><a href="homes_catalog_pinon.php">Pinon</a></li>
 										<li><a href="homes_catalog_winter_rose.php">Winter Rose</a></li>
                                         <li><a href="homes_catalog_honeyLocust.php">Honey Locust</a></li>
-                                        <li><a href="homes_catalog_aspen.php">Aspen</a></li>
-									</ul>
-				  </li>
-								<li><a href="homes_sustainability.php">Sustainability</a></li>
-								<li><a href="homes_financing.php">Financing</a></li>
-                                                                <!-- <li><a href="homes_specials.php">Specials</a></li> -->
-								<li><a href="homes_warranty.php">Warranty</a></li>
-								<li><a href="homes_brokers.php">Brokers</a></li>
-
-				</ul>
-		<div id="quotes" style="float: left; margin-top: 15px; padding-right: 10px;">
-			<a href="awardsPress_testimonials.php" style="color: #000000; text-decoration: none;">
-			<?php 
-				srand((double)microtime()*1000000); 
-				$arry_txt=preg_split("/--NEXT--/",join('',file("lib/quotes.txt"))); 
-				echo$arry_txt[rand(0,sizeof($arry_txt)-1)]; 
-			?>
-			</a>
-		</div>
-	</div>
-	<div id="content">
-		<div id="content_header">
-		<span id="content_header_underline">Cottonwood </span></div>
-		<div id="content_text">
-		
-		
-			<table width="550" border="0" cellspacing="0" cellpadding="10">
-        <tr>
-          <td width="270" class="empty"><div><span class="double"><img src="images/catalog_cottonwood_250.gif" alt="Cottonwood" width="250" height="259"></span></div></td>
-          <td rowspan="2" valign="top" class="empty"><div class="catalog_sub_hdr">Details and features:</div>
-
-<br>
-              <p><strong>3 bedroom, 1.75 bath</strong><br>
-              1,467 sq. ft. livable space (heated interior) <br>
-              99 sq. ft. front porch (with room for an optional one or two car garage)</p></td>
-        </tr>
-        <tr>
-          
-            <td valign="top" class="empty"><ul class="homes_fix">
-              <li><a href="pdf/cottonwood_floor_plan.pdf">Cottonwood Floor plan</a> PDF (420 KB)</li>
-              <li><a href="pdf/cottonwood_elevations.pdf">Cottonwood Elevations</a> PDF (281 KB)</li>
-            </ul></td>
-          
-        </tr>
-      </table>
-			<p>Square Feet are Approximate. 
-			  Prices and <a href="specifications.php">Specifications</a> subject to change without notice.</p>
-		
-		</div>	
-	</div>	
-	     <?php
-			require('lib/footer.php');	   
-		?>  
-        
-        </body>
-</html>
+                                        <li><a href="homes_catalog_
